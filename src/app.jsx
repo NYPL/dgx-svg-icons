@@ -2,6 +2,7 @@ import React from 'react';
 import {
   LionLogoIcon,
   CarouselCircleIcon,
+  BookIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -18,3 +19,6 @@ React.render(<LionLogoIcon type="inverse" />, document.getElementById('lionLogoI
 React.render(<CarouselCircleIcon />, document.getElementById('carouselIcon'));
 // Render Carousel Circle SVG Icon - Solid
 React.render(<CarouselCircleIcon type="solid" />, document.getElementById('carouselIconSolid'));
+
+// Render Book SVG Icon
+React.render(<BookIcon />, document.getElementById('bookIcon'));
