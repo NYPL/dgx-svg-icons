@@ -3,6 +3,7 @@ import {
   LionLogoIcon,
   CarouselCircleIcon,
   BookIcon,
+  DotsIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -22,3 +23,6 @@ React.render(<CarouselCircleIcon type="solid" />, document.getElementById('carou
 
 // Render Book SVG Icon
 React.render(<BookIcon />, document.getElementById('bookIcon'));
+
+// Render Dots SVG Icon
+React.render(<DotsIcon />, document.getElementById('dotsIcon'));

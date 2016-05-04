@@ -12,7 +12,7 @@ class BookIcon extends React.Component {
         width={this.props.width}
         height={this.props.height}
         viewBox={this.props.viewBox}
-        className={this.props.className}
+        className={`${this.props.className} svgIcon`}
         ref={this.props.ref}
       >
         <title>{this.props.title}</title>
