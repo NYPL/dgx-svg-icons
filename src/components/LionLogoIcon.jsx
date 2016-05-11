@@ -50,7 +50,7 @@ class LionLogoIcon extends React.Component {
 }
 
 LionLogoIcon.propTypes = {
-  className: React.PropTypes.string.isRequired,
+  className: React.PropTypes.string,
   title: React.PropTypes.string,
   ref: React.PropTypes.string,
   type: React.PropTypes.string,

@@ -25,7 +25,7 @@ class BookIcon extends React.Component {
 }
 
 BookIcon.propTypes = {
-  className: React.PropTypes.string.isRequired,
+  className: React.PropTypes.string,
   title: React.PropTypes.string,
   ref: React.PropTypes.string,
   height: React.PropTypes.string,

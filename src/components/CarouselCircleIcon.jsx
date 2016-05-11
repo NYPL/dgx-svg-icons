@@ -39,7 +39,7 @@ class CarouselCircleIcon extends React.Component {
 }
 
 CarouselCircleIcon.propTypes = {
-  className: React.PropTypes.string.isRequired,
+  className: React.PropTypes.string,
   title: React.PropTypes.string,
   ref: React.PropTypes.string,
   type: React.PropTypes.string,
