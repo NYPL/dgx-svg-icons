@@ -1,6 +1,10 @@
 import React from 'react';
 
 class LionLogoIcon extends React.Component {
+  getViewBox() {
+    return `0 0 ${this.props.width} ${this.props.height}`;
+  }
+
   renderSvgIcon() {
     return (
       <svg
@@ -8,7 +12,7 @@ class LionLogoIcon extends React.Component {
         className={`${this.props.className} svgIcon`}
         width={this.props.width}
         height={this.props.height}
-        viewBox={this.props.viewBox}
+        viewBox={this.getViewBox()}
       >
         <title>{this.props.title}</title>
         <ellipse cx="12.503" cy="12.485" rx="12.251" ry="12.24" fill={this.props.fill} />
@@ -25,7 +29,7 @@ class LionLogoIcon extends React.Component {
         className={`${this.props.className} svgIcon`}
         width={this.props.width}
         height={this.props.height}
-        viewBox={this.props.viewBox}
+        viewBox={this.getViewBox()}
       >
         <title>{this.props.title}</title>
         <path d="M19.87,8.731c-0.93-.457-2.136-0.685-3.011-1.176-0.7-.387-1.226-1.024-1.97-1.37a14.467,14.467,0,0,0-2.349-.858,4.167,4.167,0,0,0-3.307.477,3.358,3.358,0,0,0-1.247,3.32A3.951,3.951,0,0,0,8.619,10.8c1.309,1.854,3.755,2.456,5.691,3.625a0.126,0.126,0,0,0,.178-0.016L14.5,14.4a2.572,2.572,0,0,1,1.137-1.1,5.759,5.759,0,0,1,2.191-.118,2.41,2.41,0,0,0,1.908-.443,1.36,1.36,0,0,0-.2-1.757c-0.276-.159-0.689-0.166-0.992-0.3a1.049,1.049,0,0,1-.51-0.56,1.012,1.012,0,0,1-.062-0.823,0.572,0.572,0,0,1,.675-0.1,3.42,3.42,0,0,0,1.771.028A0.872,0.872,0,0,0,19.87,8.731Zm-4.885-.27a0.84,0.84,0,0,1-.386.664,0.906,0.906,0,0,1-.517-0.291,5.687,5.687,0,0,0-.958-0.353,1.245,1.245,0,0,1-.806-0.5c-0.172-.415.234-0.609,0.53-0.706A3.233,3.233,0,0,1,13.69,7.14a1.265,1.265,0,0,1,1.219.387,1.855,1.855,0,0,1,.076.934h0Z" transform="translate(0 0)" fill={this.props.inverseFill} />
@@ -54,9 +58,8 @@ LionLogoIcon.propTypes = {
   title: React.PropTypes.string,
   ref: React.PropTypes.string,
   type: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
+  height: React.PropTypes.number,
+  width: React.PropTypes.number,
   fill: React.PropTypes.string,
   inverseFill: React.PropTypes.string,
 };
@@ -66,9 +69,8 @@ LionLogoIcon.defaultProps = {
   title: 'NYPL Lion Logo',
   ref: 'nyplLionLogoIcon',
   type: '',
-  height: '25px',
-  width: '25px',
-  viewBox: '0 0 25 25',
+  height: 25,
+  width: 25,
   fill: '#FFF',
   inverseFill: '#000',
 };
