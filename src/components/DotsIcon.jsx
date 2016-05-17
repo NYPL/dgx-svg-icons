@@ -1,14 +1,9 @@
 import React from 'react';
 
 class DotsIcon extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <svg
-        xmlns="http://www.w3.org/2000/svg"
         width={this.props.width}
         height={this.props.height}
         viewBox={this.props.viewBox}
@@ -26,7 +21,7 @@ class DotsIcon extends React.Component {
 }
 
 DotsIcon.propTypes = {
-  className: React.PropTypes.string.isRequired,
+  className: React.PropTypes.string,
   title: React.PropTypes.string,
   ref: React.PropTypes.string,
   height: React.PropTypes.string,
