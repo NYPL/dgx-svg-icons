@@ -1,11 +1,7 @@
 import React from 'react';
 
 class CarouselCircleIcon extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  _renderSvgIcon() {
+  renderSvgIcon() {
     return (
       <path
         d="M12,4a8,8,0,1,1-8,8,8.00906,8.00906,0,0,1,8-8m0-4A12,12,0,1,0,24,12,12,12,0,0,0,12,0h0Z"
@@ -14,7 +10,7 @@ class CarouselCircleIcon extends React.Component {
     );
   }
 
-  _renderSolidSvgIcon() {
+  renderSolidSvgIcon() {
     return (
       <path
         d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0h0Z"
@@ -25,14 +21,12 @@ class CarouselCircleIcon extends React.Component {
 
   render() {
     const svgIcon = (this.props.type !== 'solid') ?
-      this._renderSvgIcon() : this._renderSolidSvgIcon();
+      this.renderSvgIcon() : this.renderSolidSvgIcon();
 
     return (
       <svg
-        xmlns="http://www.w3.org/2000/svg"
         ref={this.props.ref}
         className={`${this.props.className} svgIcon`}
-        id={this.props.id}
         width={this.props.width}
         height={this.props.height}
         viewBox={this.props.viewBox}
@@ -45,8 +39,7 @@ class CarouselCircleIcon extends React.Component {
 }
 
 CarouselCircleIcon.propTypes = {
-  id: React.PropTypes.string.isRequired,
-  className: React.PropTypes.string.isRequired,
+  className: React.PropTypes.string,
   title: React.PropTypes.string,
   ref: React.PropTypes.string,
   type: React.PropTypes.string,
@@ -57,7 +50,6 @@ CarouselCircleIcon.propTypes = {
 };
 
 CarouselCircleIcon.defaultProps = {
-  id: 'nyplCarouselCircle-icon',
   className: 'nyplCarouselCircle-icon',
   title: 'NYPL Carousel Circle SVG Icon',
   ref: 'nyplCarouselCircle',
