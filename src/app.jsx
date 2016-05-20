@@ -6,7 +6,7 @@ import {
   CarouselCircleIcon,
   BookIcon,
   DotsIcon,
-  SoloXIcon,
+  XIcon,
   FilterIcon,
   ListIcon,
   GridIcon,
@@ -53,7 +53,7 @@ render(<BookIcon fill="#000" />, document.getElementById('bookIcon'));
 render(<DotsIcon />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
-render(<SoloXIcon fill="#000" />, document.getElementById('soloXIcon'));
+render(<XIcon fill="#000" />, document.getElementById('XIcon'));
 
 // Render Dots SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));

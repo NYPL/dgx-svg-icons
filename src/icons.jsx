@@ -3,7 +3,7 @@ import LionLogoWithText from './components/LionLogoWithText.jsx';
 import CarouselCircleIcon from './components/CarouselCircleIcon.jsx';
 import BookIcon from './components/BookIcon.jsx';
 import DotsIcon from './components/DotsIcon.jsx';
-import SoloXIcon from './components/SoloXIcon.jsx';
+import XIcon from './components/XIcon.jsx';
 import FilterIcon from './components/FilterIcon.jsx';
 import ListIcon from './components/ListIcon.jsx';
 import GridIcon from './components/GridIcon.jsx';
@@ -24,7 +24,7 @@ export {
   CarouselCircleIcon,
   BookIcon,
   DotsIcon,
-  SoloXIcon,
+  XIcon,
   FilterIcon,
   ListIcon,
   GridIcon,
