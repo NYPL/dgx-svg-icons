@@ -20,6 +20,7 @@ import {
   LargePrintIcon,
   EReaderIcon,
   TagIcon,
+  LocatorIcon
 } from './icons';
 
 // Stylesheet used for development mode
@@ -94,3 +95,8 @@ render(<EReaderIcon />, document.getElementById('eReaderIcon'));
 // Render Dots SVG Icon
 render(<TagIcon />, document.getElementById('tagIcon'));
 
+// Render Locator SVG Icon (Small Dot)
+render(<LocatorIcon />, document.getElementById('locatorIcon'));
+
+// Render Locator SVG Icon (Large Dot)
+render(<LocatorIcon size="large" />, document.getElementById('locatorIconLarge'));

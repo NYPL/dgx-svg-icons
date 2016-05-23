@@ -17,6 +17,7 @@ import DvdDiscIcon from './components/DvdDiscIcon.jsx';
 import LargePrintIcon from './components/LargePrintIcon.jsx';
 import EReaderIcon from './components/EReaderIcon.jsx';
 import TagIcon from './components/TagIcon.jsx';
+import LocatorIcon from './components/LocatorIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -38,4 +39,5 @@ export {
   LargePrintIcon,
   EReaderIcon,
   TagIcon,
+  LocatorIcon,
 };
