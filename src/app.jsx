@@ -20,7 +20,7 @@ import {
   LargePrintIcon,
   EReaderIcon,
   TagIcon,
-  LocatorIcon
+  LocatorIcon,
 } from './icons';
 
 // Stylesheet used for development mode
