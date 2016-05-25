@@ -22,6 +22,7 @@ import {
   TagIcon,
   LocatorIcon,
   MenuIcon,
+  CheckSoloIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -101,6 +102,9 @@ render(<LocatorIcon fill="red" ariaHidden />, document.getElementById('locatorIc
 
 // Render Locator SVG Icon (Large Dot)
 render(<LocatorIcon fill="blue" size="large" />, document.getElementById('locatorIconLarge'));
+
+// Render Check Solo Icon
+render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
 
 // Render Menu SVG Icon
 render(
