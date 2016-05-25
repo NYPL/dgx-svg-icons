@@ -1,12 +1,12 @@
 import React from 'react';
 
-const ListIcon = ({ viewBox, height, width, title, className }) => (
+const ListIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
+    aria-hidden={ariaHidden}
   >
     <title>{title}</title>
     <path d="M23.4829,9.5H7.83a1.0143,1.0143,0,1,1,0-2.0285H23.4829A1.0143,1.0143,0,1,1,23.4829,9.5Z" />
@@ -22,6 +22,7 @@ ListIcon.propTypes = {
   height: React.PropTypes.string,
   width: React.PropTypes.string,
   viewBox: React.PropTypes.string,
+  ariaHidden: React.PropTypes.bool,
 };
 
 ListIcon.defaultProps = {

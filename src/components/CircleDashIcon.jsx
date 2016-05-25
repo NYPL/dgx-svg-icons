@@ -1,12 +1,12 @@
 import React from 'react';
 
-const CircleDashIcon = ({ viewBox, height, width, title, className, fill }) => (
+const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHidden }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
+    aria-hidden={ariaHidden}
   >
     <title>{title}</title>
     <path d="M16,3A13,13,0,1,1,3,16,13.0147,13.0147,0,0,1,16,3m0-3A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" fill={fill} />
@@ -21,6 +21,7 @@ CircleDashIcon.propTypes = {
   width: React.PropTypes.string,
   viewBox: React.PropTypes.string,
   fill: React.PropTypes.string,
+  ariaHidden: React.PropTypes.bool,
 };
 
 CircleDashIcon.defaultProps = {

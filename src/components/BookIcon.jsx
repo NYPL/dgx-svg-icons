@@ -1,11 +1,12 @@
 import React from 'react';
 
-const BookIcon = ({ viewBox, height, width, title, className, fill }) => (
+const BookIcon = ({ viewBox, height, width, title, className, fill, ariaHidden }) => (
   <svg
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
+    aria-hidden={ariaHidden}
   >
     <title>{title}</title>
     <g>
@@ -22,6 +23,7 @@ BookIcon.propTypes = {
   width: React.PropTypes.string,
   viewBox: React.PropTypes.string,
   fill: React.PropTypes.string,
+  ariaHidden: React.PropTypes.bool,
 };
 
 BookIcon.defaultProps = {

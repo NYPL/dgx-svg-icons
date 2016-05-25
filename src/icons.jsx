@@ -18,6 +18,7 @@ import LargePrintIcon from './components/LargePrintIcon.jsx';
 import EReaderIcon from './components/EReaderIcon.jsx';
 import TagIcon from './components/TagIcon.jsx';
 import LocatorIcon from './components/LocatorIcon.jsx';
+import MenuIcon from './components/MenuIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -40,4 +41,5 @@ export {
   EReaderIcon,
   TagIcon,
   LocatorIcon,
+  MenuIcon,
 };
