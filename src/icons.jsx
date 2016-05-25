@@ -19,6 +19,8 @@ import EReaderIcon from './components/EReaderIcon.jsx';
 import TagIcon from './components/TagIcon.jsx';
 import LocatorIcon from './components/LocatorIcon.jsx';
 import MenuIcon from './components/MenuIcon.jsx';
+import LoginIcon from './components/LoginIcon.jsx';
+import SearchIcon from './components/SearchIcon.jsx';
 import CheckSoloIcon from './components/CheckSoloIcon.jsx';
 
 export {
@@ -43,5 +45,7 @@ export {
   TagIcon,
   LocatorIcon,
   MenuIcon,
+  LoginIcon,
+  SearchIcon,
   CheckSoloIcon,
 };

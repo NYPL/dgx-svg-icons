@@ -22,6 +22,8 @@ import {
   TagIcon,
   LocatorIcon,
   MenuIcon,
+  LoginIcon,
+  SearchIcon,
   CheckSoloIcon,
 } from './icons';
 
@@ -103,11 +105,17 @@ render(<LocatorIcon fill="red" ariaHidden />, document.getElementById('locatorIc
 // Render Locator SVG Icon (Large Dot)
 render(<LocatorIcon fill="blue" size="large" />, document.getElementById('locatorIconLarge'));
 
-// Render Check Solo Icon
-render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
-
 // Render Menu SVG Icon
 render(
   <MenuIcon ariaHidden fill="#FFF" style={{ backgroundColor: 'red' }} />,
   document.getElementById('menuIcon')
 );
+
+// Render Search SVG Icon
+render(<SearchIcon />, document.getElementById('searchIcon'));
+
+// Render Login SVG Icon
+render(<LoginIcon />, document.getElementById('loginIcon'));
+
+// Render Check Solo Icon
+render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
