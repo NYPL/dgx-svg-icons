@@ -22,6 +22,8 @@ import {
   TagIcon,
   LocatorIcon,
   MenuIcon,
+  LoginIcon,
+  SearchIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -107,3 +109,9 @@ render(
   <MenuIcon ariaHidden fill="#FFF" style={{ backgroundColor: 'red' }} />,
   document.getElementById('menuIcon')
 );
+
+// Render Search SVG Icon
+render(<SearchIcon />, document.getElementById('searchIcon'));
+
+// Render Login SVG Icon
+render(<LoginIcon />, document.getElementById('loginIcon'));
