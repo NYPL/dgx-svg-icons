@@ -26,8 +26,8 @@ FilterIcon.propTypes = {
   ariaHidden: React.PropTypes.bool,
   className: React.PropTypes.string,
   fill: React.PropTypes.string,
-  title: React.PropTypes.string,
   height: React.PropTypes.string,
+  title: React.PropTypes.string,
   width: React.PropTypes.string,
   viewBox: React.PropTypes.string,
 };
@@ -36,8 +36,8 @@ FilterIcon.defaultProps = {
   ariaHidden: true,
   className: 'filter-icon',
   fill: '#000',
-  title: 'NYPL Filter SVG Icon',
   height: '32',
+  title: 'NYPL Filter SVG Icon',
   width: '32',
   viewBox: '0 0 32 32',
 };
