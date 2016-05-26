@@ -21,6 +21,10 @@ import {
   EReaderIcon,
   TagIcon,
   LocatorIcon,
+  MenuIcon,
+  LoginIcon,
+  SearchIcon,
+  CheckSoloIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -42,7 +46,7 @@ render(<LionLogoIcon />, document.getElementById('lionLogo'));
 render(<LionLogoIcon type="inverse" />, document.getElementById('lionLogoInverse'));
 
 // Render Carousel Circle SVG Icon
-render(<CarouselCircleIcon />, document.getElementById('carouselIcon'));
+render(<CarouselCircleIcon ariaHidden />, document.getElementById('carouselIcon'));
 
 // Render Carousel Circle SVG Icon - Solid
 render(<CarouselCircleIcon type="solid" />, document.getElementById('carouselIconSolid'));
@@ -96,7 +100,22 @@ render(<EReaderIcon />, document.getElementById('eReaderIcon'));
 render(<TagIcon />, document.getElementById('tagIcon'));
 
 // Render Locator SVG Icon (Small Dot)
-render(<LocatorIcon />, document.getElementById('locatorIcon'));
+render(<LocatorIcon fill="red" ariaHidden />, document.getElementById('locatorIcon'));
 
 // Render Locator SVG Icon (Large Dot)
-render(<LocatorIcon size="large" />, document.getElementById('locatorIconLarge'));
+render(<LocatorIcon fill="blue" size="large" />, document.getElementById('locatorIconLarge'));
+
+// Render Menu SVG Icon
+render(
+  <MenuIcon ariaHidden fill="#FFF" style={{ backgroundColor: 'red' }} />,
+  document.getElementById('menuIcon')
+);
+
+// Render Search SVG Icon
+render(<SearchIcon />, document.getElementById('searchIcon'));
+
+// Render Login SVG Icon
+render(<LoginIcon />, document.getElementById('loginIcon'));
+
+// Render Check Solo Icon
+render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));

@@ -34,6 +34,8 @@ class LionLogoWithText extends React.Component {
         width={this.state.width}
         height={this.state.height}
         viewBox={this.getViewBox()}
+        style={this.props.style}
+        aria-hidden={this.props.ariaHidden}
       >
         <title>{this.props.title}</title>
         <g className={`${this.props.className}-text`}>
@@ -90,6 +92,8 @@ class LionLogoWithText extends React.Component {
         width={this.state.width}
         height={this.state.height}
         viewBox={this.getViewBox()}
+        style={this.props.style}
+        aria-hidden={this.props.ariaHidden}
       >
         <title>{this.props.title}</title>
         <g className={`${this.props.className}-text`}>
@@ -153,6 +157,7 @@ LionLogoWithText.propTypes = {
   offset: React.PropTypes.number,
   fill: React.PropTypes.string,
   inverseFill: React.PropTypes.string,
+  ariaHidden: React.PropTypes.bool,
 };
 
 LionLogoWithText.defaultProps = {
