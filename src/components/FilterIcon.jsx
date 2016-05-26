@@ -1,12 +1,12 @@
 import React from 'react';
 
-const FilterIcon = ({ viewBox, height, width, title, className }) => (
+const FilterIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
+    aria-hidden={ariaHidden}
   >
     <title>{title}</title>
     <g>
@@ -27,6 +27,7 @@ FilterIcon.propTypes = {
   height: React.PropTypes.string,
   width: React.PropTypes.string,
   viewBox: React.PropTypes.string,
+  ariaHidden: React.PropTypes.bool,
 };
 
 FilterIcon.defaultProps = {
