@@ -1,6 +1,6 @@
 import React from 'react';
 
-const DividedLine = ({ ariaHidden, className, height, length, stroke, strokeWidth, title, viewBox, width }) => (
+const DivideLine = ({ ariaHidden, className, height, length, stroke, strokeWidth, title, viewBox, width }) => (
   <svg
     aria-hidden={ariaHidden}
     className={`${className} svgIcon`}
@@ -13,7 +13,7 @@ const DividedLine = ({ ariaHidden, className, height, length, stroke, strokeWidt
   </svg>
 );
 
-DividedLine.propTypes = {
+DivideLine.propTypes = {
   ariaHidden: React.PropTypes.bool,
   className: React.PropTypes.string,
   height: React.PropTypes.string,
@@ -25,7 +25,7 @@ DividedLine.propTypes = {
   width: React.PropTypes.string,
 };
 
-DividedLine.defaultProps = {
+DivideLine.defaultProps = {
   ariaHidden: true,
   className: 'divideLine-icon',
   height: '2',
@@ -36,3 +36,5 @@ DividedLine.defaultProps = {
   viewBox: '0 0 84 2',
   width: '84',
 };
+
+export default DivideLine;
