@@ -25,6 +25,7 @@ import {
   LoginIcon,
   SearchIcon,
   CheckSoloIcon,
+  DivideLineIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -119,3 +120,7 @@ render(<LoginIcon />, document.getElementById('loginIcon'));
 
 // Render Check Solo Icon
 render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
+
+// Render Divide Line Icon
+render(<DivideLineIcon />, document.getElementById('divideLineIcon'));
+
