@@ -21,6 +21,7 @@ import LocatorIcon from './components/LocatorIcon.jsx';
 import MenuIcon from './components/MenuIcon.jsx';
 import LoginIcon from './components/LoginIcon.jsx';
 import SearchIcon from './components/SearchIcon.jsx';
+import CheckSoloIcon from './components/CheckSoloIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -46,4 +47,5 @@ export {
   MenuIcon,
   LoginIcon,
   SearchIcon,
+  CheckSoloIcon,
 };

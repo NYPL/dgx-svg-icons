@@ -24,6 +24,7 @@ import {
   MenuIcon,
   LoginIcon,
   SearchIcon,
+  CheckSoloIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -115,3 +116,6 @@ render(<SearchIcon />, document.getElementById('searchIcon'));
 
 // Render Login SVG Icon
 render(<LoginIcon />, document.getElementById('loginIcon'));
+
+// Render Check Solo Icon
+render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
