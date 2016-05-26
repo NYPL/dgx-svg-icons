@@ -1,12 +1,13 @@
 import React from 'react';
 
-const FilterIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
+const FilterIcon = ({ ariaHidden, className, fill, height, title, viewBox, width }) => (
   <svg
-    width={width}
+    aria-hidden={ariaHidden}
+    className={`${className} svgIcon`}
+    fill={fill}
     height={height}
     viewBox={viewBox}
-    className={`${className} svgIcon`}
-    aria-hidden={ariaHidden}
+    width={width}
   >
     <title>{title}</title>
     <g>
@@ -22,19 +23,22 @@ const FilterIcon = ({ viewBox, height, width, title, className, ariaHidden }) =>
 );
 
 FilterIcon.propTypes = {
+  ariaHidden: React.PropTypes.bool,
   className: React.PropTypes.string,
+  fill: React.PropTypes.string,
   title: React.PropTypes.string,
   height: React.PropTypes.string,
   width: React.PropTypes.string,
   viewBox: React.PropTypes.string,
-  ariaHidden: React.PropTypes.bool,
 };
 
 FilterIcon.defaultProps = {
+  ariaHidden: true,
   className: 'filter-icon',
+  fill: '#000',
   title: 'NYPL Filter SVG Icon',
-  width: '32',
   height: '32',
+  width: '32',
   viewBox: '0 0 32 32',
 };
 
