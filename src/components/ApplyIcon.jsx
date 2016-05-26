@@ -26,7 +26,7 @@ ApplyIcon.propTypes = {
 };
 
 ApplyIcon.defaultProps = {
-  ariaHidden: React.PropTypes.bool,
+  ariaHidden: true,
   className: 'apply-icon',
   fill: '#000',
   height: '32',
