@@ -27,6 +27,7 @@ SearchIcon.propTypes = {
 };
 
 SearchIcon.defaultProps = {
+  ariaHidden: true,
   className: 'searchIcon',
   title: 'NYPL Search SVG Icon',
   width: '32',
