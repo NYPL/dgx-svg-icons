@@ -1,5 +1,6 @@
 import LionLogoIcon from './components/LionLogoIcon.jsx';
 import LionLogoWithText from './components/LionLogoWithText.jsx';
+import LionLogoWithTextInverse from './components/LionLogoWithTextInverse.jsx';
 import CarouselCircleIcon from './components/CarouselCircleIcon.jsx';
 import BookIcon from './components/BookIcon.jsx';
 import DotsIcon from './components/DotsIcon.jsx';
@@ -27,6 +28,7 @@ import DivideLineIcon from './components/DivideLineIcon.jsx';
 export {
   LionLogoIcon,
   LionLogoWithText,
+  LionLogoWithTextInverse,
   CarouselCircleIcon,
   BookIcon,
   DotsIcon,
