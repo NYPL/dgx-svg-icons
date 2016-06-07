@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import {
   LionLogoIcon,
   LionLogoWithText,
+  LionLogoWithTextInverse,
   CarouselCircleIcon,
   BookIcon,
   DotsIcon,
@@ -36,9 +37,9 @@ import './styles/styles.scss';
  */
 
 // Render NYPL Logo
-render(<LionLogoWithText />, document.getElementById('LionLogoWithText'));
+render(<LionLogoWithText ariaHidden />, document.getElementById('LionLogoWithText'));
 // Render Inverse NYPL Logo
-render(<LionLogoWithText type="inverse" />, document.getElementById('LionLogoWithTextInverse'));
+render(<LionLogoWithTextInverse ariaHidden />, document.getElementById('LionLogoWithTextInverse'));
 
 // Render Lion Logo Icon
 render(<LionLogoIcon />, document.getElementById('lionLogo'));
@@ -123,4 +124,3 @@ render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
 
 // Render Divide Line Icon
 render(<DivideLineIcon />, document.getElementById('divideLineIcon'));
-
