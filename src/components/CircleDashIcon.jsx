@@ -6,6 +6,7 @@ const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHi
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
+    fill={fill}
     aria-hidden={ariaHidden}
   >
     <title>{title}</title>
