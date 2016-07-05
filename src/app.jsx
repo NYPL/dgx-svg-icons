@@ -27,6 +27,8 @@ import {
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
+  RightWedgeIcon,
+  LeftWedgeIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -124,3 +126,9 @@ render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
 
 // Render Divide Line Icon
 render(<DivideLineIcon />, document.getElementById('divideLineIcon'));
+
+// Render Divide Line Icon
+render(<RightWedgeIcon />, document.getElementById('rightWedgeIcon'));
+
+// Render Divide Line Icon
+render(<LeftWedgeIcon />, document.getElementById('leftWedgeIcon'));
