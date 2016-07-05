@@ -24,6 +24,8 @@ import LoginIcon from './components/LoginIcon.jsx';
 import SearchIcon from './components/SearchIcon.jsx';
 import CheckSoloIcon from './components/CheckSoloIcon.jsx';
 import DivideLineIcon from './components/DivideLineIcon.jsx';
+import RightWedgeIcon from './components/RightWedgeIcon.jsx';
+import LeftWedgeIcon from './components/LeftWedgeIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -52,4 +54,6 @@ export {
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
+  RightWedgeIcon,
+  LeftWedgeIcon,
 };
