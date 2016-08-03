@@ -1,16 +1,16 @@
 import React from 'react';
 
-const XIcon = ({ ariaHidden, className, fill, height, title, viewBox, width }) => (
+const XIcon = ({ ariaHidden, className, fill, width, height, title, viewBox }) => (
   <svg
     aria-hidden={ariaHidden}
     className={`${className} svgIcon`}
     fill={fill}
+    width={width}
     height={height}
     viewBox={viewBox}
-    width={width}
   >
     <title>{title}</title>
-    <path d="M17.42086,15.97192l4.20221-4.20221a0.98518,0.98518,0,0,0-1.39326-1.39326l-4.19313,4.19313L11.839,10.31679a0.98554,0.98554,0,0,0-1.40288,1.3846l4.207,4.26181-4.26614,4.26614a0.98518,0.98518,0,1,0,1.39326,1.39326l4.25718-4.25718L20.225,21.61779a0.98521,0.98521,0,0,0,1.40288-1.38364Z" />
+    <path d="M17.91272,15.97339l5.65689-5.65689A1.32622,1.32622,0,0,0,21.694,8.44093L16.04938,14.0856l-5.65082-5.725A1.32671,1.32671,0,1,0,8.51,10.22454l5.66329,5.73712L8.43038,21.7046a1.32622,1.32622,0,1,0,1.87557,1.87557l5.73088-5.73088,5.65074,5.72441a1.32626,1.32626,0,1,0,1.88852-1.86261Z" />
   </svg>
 );
 
@@ -27,9 +27,9 @@ XIcon.propTypes = {
 XIcon.defaultProps = {
   ariaHidden: true,
   className: 'x-icon',
+  title: 'NYPL X SVG Icon',
   fill: '#000',
   height: '32',
-  title: 'NYPL X SVG Icon',
   width: '32',
   viewBox: '0 0 32 32',
 };
