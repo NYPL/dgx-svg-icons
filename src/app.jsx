@@ -31,6 +31,8 @@ import {
   LeftWedgeIcon,
   RadioInactiveIcon,
   RadioActiveIcon,
+  SmallDotClosedIcon,
+  SmallDotOpenIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -129,14 +131,20 @@ render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
 // Render Divide Line Icon
 render(<DivideLineIcon />, document.getElementById('divideLineIcon'));
 
-// Render Divide Line Icon
+// Render Rigth Wedge Icon
 render(<RightWedgeIcon />, document.getElementById('rightWedgeIcon'));
 
-// Render Divide Line Icon
+// Render Left Wedge Icon
 render(<LeftWedgeIcon />, document.getElementById('leftWedgeIcon'));
 
-// Render Divide Line Icon
+// Render Radio Inactive Icon
 render(<RadioInactiveIcon />, document.getElementById('radioInactiveIcon'));
 
-// Render Divide Line Icon
+// Render Radio Active Icon
 render(<RadioActiveIcon />, document.getElementById('radioActiveIcon'));
+
+// Render Small Dot Closed Icon
+render(<SmallDotClosedIcon />, document.getElementById('smallDotClosedIcon'));
+
+// Render Small Dot Open Icon
+render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
