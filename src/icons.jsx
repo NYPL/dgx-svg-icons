@@ -28,6 +28,8 @@ import RightWedgeIcon from './components/RightWedgeIcon.jsx';
 import LeftWedgeIcon from './components/LeftWedgeIcon.jsx';
 import RadioInactiveIcon from './components/RadioInactiveIcon.jsx';
 import RadioActiveIcon from './components/RadioActiveIcon.jsx';
+import SmallDotClosedIcon from './components/SmallDotClosedIcon.jsx';
+import SmallDotOpenIcon from './components/SmallDotOpenIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -60,4 +62,6 @@ export {
   LeftWedgeIcon,
   RadioInactiveIcon,
   RadioActiveIcon,
+  SmallDotClosedIcon,
+  SmallDotOpenIcon,
 };
