@@ -26,6 +26,8 @@ import CheckSoloIcon from './components/CheckSoloIcon.jsx';
 import DivideLineIcon from './components/DivideLineIcon.jsx';
 import RightWedgeIcon from './components/RightWedgeIcon.jsx';
 import LeftWedgeIcon from './components/LeftWedgeIcon.jsx';
+import RadioInactiveIcon from './components/RadioInactiveIcon.jsx';
+import RadioActiveIcon from './components/RadioActiveIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -56,4 +58,6 @@ export {
   DivideLineIcon,
   RightWedgeIcon,
   LeftWedgeIcon,
+  RadioInactiveIcon,
+  RadioActiveIcon,
 };

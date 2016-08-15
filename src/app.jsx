@@ -29,6 +29,8 @@ import {
   DivideLineIcon,
   RightWedgeIcon,
   LeftWedgeIcon,
+  RadioInactiveIcon,
+  RadioActiveIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -132,3 +134,9 @@ render(<RightWedgeIcon />, document.getElementById('rightWedgeIcon'));
 
 // Render Divide Line Icon
 render(<LeftWedgeIcon />, document.getElementById('leftWedgeIcon'));
+
+// Render Divide Line Icon
+render(<RadioInactiveIcon />, document.getElementById('radioInactiveIcon'));
+
+// Render Divide Line Icon
+render(<RadioActiveIcon />, document.getElementById('radioActiveIcon'));
