@@ -66,8 +66,10 @@ There are also props such as `fill`, `style`, and `size` for only a few componen
 
 Component Name  | Component Markup  | Preview 
 --- | --- | ---
-ApplyIcon | `<ApplyIcon />` | ![Apply Icon](images/apply.png)
-
-
-
-
+ApplyIcon | `<ApplyIcon />` | ![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/readme-update/images/apply.png)
+AudioDiscIcon | `<AudioDiscIcon />` |
+AudioHeadphoneIcon | `<AudioHeadphoneIcon />` |
+BookIcon | `<BookIcon />` |
+CarouselCircleIcon | `<CarouselCircleIcon />` |
+CheckSoloIcon | `<CheckSoloIcon />` |
+CircleDashIcon | `<CircleDashIcon />` |
