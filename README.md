@@ -53,6 +53,7 @@ There are props that all components use:
 * ariaHidden
 
 By default, the `defaultProps` generate:
+
 * viewBox
 * height
 * width
@@ -65,7 +66,7 @@ There are also props such as `fill`, `style`, and `size` for only a few componen
 
 Component Name  | Component Markup  | Preview 
 --- | --- | ---
-ApplyIcon | `<ApplyIcon />` | ![Apply Icon][images/apply.png]
+ApplyIcon | `<ApplyIcon />` | ![Apply Icon](images/apply.png)
 
 
 
