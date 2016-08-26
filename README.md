@@ -64,12 +64,39 @@ There are also props such as `fill`, `style`, and `size` for only a few componen
 
 ### Reference
 
-Component Name  | Component Markup  | Preview 
---- | --- | ---
-ApplyIcon | `<ApplyIcon />` | ![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/readme-update/images/apply.png)
-AudioDiscIcon | `<AudioDiscIcon />` |
-AudioHeadphoneIcon | `<AudioHeadphoneIcon />` |
-BookIcon | `<BookIcon />` |
-CarouselCircleIcon | `<CarouselCircleIcon />` |
-CheckSoloIcon | `<CheckSoloIcon />` |
-CircleDashIcon | `<CircleDashIcon />` |
+![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/readme-update/images/svg.png)
+
+Component Name  | Component Markup  
+--- | ---
+ApplyIcon | `<ApplyIcon />`
+AudioDiscIcon | `<AudioDiscIcon />`
+AudioHeadphoneIcon | `<AudioHeadphoneIcon />`
+BookIcon | `<BookIcon />`
+CarouselCircleIcon | `<CarouselCircleIcon />`
+CheckSoloIcon | `<CheckSoloIcon />`
+CircleDashIcon | `<CircleDashIcon />`
+DivideLineIcon | `<DivideLineIcon />`
+DotsIcon | `<DotsIcon />`
+DvdDiscIcon | `<DvdDiscIcon />`
+EReaderIcon | `<EReaderIcon />`
+FilterIcon | `<FilterIcon />`
+GridIcon | `<GridIcon />`
+LargePrintIcon | `<LargePrintIcon />`
+LeftWedgeIcon | `<LeftWedgeIcon />`
+LionLogoIcon | `<LionLogoIcon />`
+LionLogoWithText | `<LionLogoWithText />`
+LionLogoWithTextInverse | `<LionLogoWithTextInverse />`
+ListIcon | `<ListIcon />`
+LocatorIcon | `<LocatorIcon />`
+LoginIcon | `<LoginIcon />`
+MediaBluRayIcon | `<MediaBluRayIcon />`
+MenuIcon | `<MenuIcon />`
+RadioActiveIcon | `<RadioActiveIcon />`
+RadioInactiveIcon | `<RadioInactiveIcon />`
+ResetIcon | `<ResetIcon />`
+RightWedgeIcon | `<RightWedgeIcon />`
+SearchIcon | `<SearchIcon />`
+SmallDotClosedIcon | `<SmallDotClosedIcon />`
+SmallDotOpenIcon | `<SmallDotOpenIcon />`
+TagIcon | `<TagIcon />`
+XIcon | `<XIcon />`
