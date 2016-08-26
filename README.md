@@ -45,12 +45,14 @@ render(
 
 There are props that all components use:
 
-* viewBox
-* height
-* width
-* title
-* className
-* ariaHidden
+prop | type
+--- | ---
+viewBox | string
+height | string
+width | string
+title | string
+className | string
+ariaHidden | boolean
 
 By default, the `defaultProps` generate:
 
