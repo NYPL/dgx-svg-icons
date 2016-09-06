@@ -18,7 +18,7 @@ const RadioInactiveIcon = ({
     aria-hidden={ariaHidden}
   >
     <title>{title}</title>
-    <path d="M16,4A12,12,0,1,1,4,16,12.01358,12.01358,0,0,1,16,4m0-4A16,16,0,1,0,32,16,16,16,0,0,0,16,0Z" />
+    <path d="M7.96875,1A6.96875,6.96875,0,1,1,1,7.96875,6.97663,6.97663,0,0,1,7.96875,1m0-1A7.96875,7.96875,0,1,0,15.9375,7.96875,7.96873,7.96873,0,0,0,7.96875,0Z" />
   </svg>
 );
 
@@ -35,9 +35,9 @@ RadioInactiveIcon.propTypes = {
 RadioInactiveIcon.defaultProps = {
   className: 'radioInactiveIcon',
   title: 'NYPL Radio Inactive Icon',
-  height: '24px',
-  width: '24px',
-  viewBox: '0 0 32 32',
+  height: '16px',
+  width: '16px',
+  viewBox: '0 0 16 16',
   fill: '#000',
 };
 
