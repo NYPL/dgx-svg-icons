@@ -1,6 +1,6 @@
 {
   "name": "dgx-svg-icons",
-  "version": "0.0.0",
+  "version": "0.0.16",
   "description": "React DGX Buttons",
   "main": "dist/index.min.js",
   "scripts": {

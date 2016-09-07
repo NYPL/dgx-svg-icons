@@ -66,7 +66,7 @@ There are also props such as `fill`, `style`, and `size` for only a few componen
 
 ### Reference
 
-![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/readme-update/images/svg.png)
+![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/master/images/svg.png)
 
 Component Name  | Component Markup  
 --- | ---
