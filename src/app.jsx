@@ -24,6 +24,7 @@ import {
   LocatorIcon,
   MenuIcon,
   LoginIcon,
+  LoginIconSolid,
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
@@ -124,6 +125,9 @@ render(<SearchIcon />, document.getElementById('searchIcon'));
 
 // Render Login SVG Icon
 render(<LoginIcon />, document.getElementById('loginIcon'));
+
+// Render Login Solid SVG Icon
+render(<LoginIconSolid />, document.getElementById('loginIconSolid'));
 
 // Render Check Solo Icon
 render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
