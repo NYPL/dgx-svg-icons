@@ -91,6 +91,8 @@ LionLogoWithTextInverse | `<LionLogoWithTextInverse />`
 ListIcon | `<ListIcon />`
 LocatorIcon | `<LocatorIcon />`
 LoginIcon | `<LoginIcon />`
+LoginIconSolid | `<LoginIconSolid />`
+LogoutIcon | `<LogoutIcon />`
 MediaBluRayIcon | `<MediaBluRayIcon />`
 MenuIcon | `<MenuIcon />`
 RadioActiveIcon | `<RadioActiveIcon />`

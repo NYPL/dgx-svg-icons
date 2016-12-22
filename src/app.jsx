@@ -25,6 +25,7 @@ import {
   MenuIcon,
   LoginIcon,
   LoginIconSolid,
+  LogoutIcon,
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
@@ -45,6 +46,7 @@ import './styles/styles.scss';
 
 // Render NYPL Logo
 render(<LionLogoWithText ariaHidden />, document.getElementById('LionLogoWithText'));
+
 // Render Inverse NYPL Logo
 render(<LionLogoWithTextInverse ariaHidden />, document.getElementById('LionLogoWithTextInverse'));
 
@@ -128,6 +130,9 @@ render(<LoginIcon />, document.getElementById('loginIcon'));
 
 // Render Login Solid SVG Icon
 render(<LoginIconSolid />, document.getElementById('loginIconSolid'));
+
+// Render Logout SVG Icon
+render(<LogoutIcon />, document.getElementById('logoutIcon'));
 
 // Render Check Solo Icon
 render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));

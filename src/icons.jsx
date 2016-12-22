@@ -22,6 +22,7 @@ import LocatorIcon from './components/LocatorIcon.jsx';
 import MenuIcon from './components/MenuIcon.jsx';
 import LoginIcon from './components/LoginIcon.jsx';
 import LoginIconSolid from './components/LoginIconSolid.jsx';
+import LogoutIcon from './components/LogoutIcon.jsx';
 import SearchIcon from './components/SearchIcon.jsx';
 import CheckSoloIcon from './components/CheckSoloIcon.jsx';
 import DivideLineIcon from './components/DivideLineIcon.jsx';
@@ -57,6 +58,7 @@ export {
   MenuIcon,
   LoginIcon,
   LoginIconSolid,
+  LogoutIcon,
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
