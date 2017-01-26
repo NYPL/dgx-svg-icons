@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
+const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill, ariaHidden, preserveAspectRatio }) => (
   <svg
     viewBox={viewBox}
     height={height}
@@ -9,6 +9,7 @@ const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill,
     style={style}
     fill={fill}
     aria-hidden={ariaHidden}
+    preserveAspectRatio={preserveAspectRatio}
   >
     <title>{title}</title>
     <g>
@@ -27,14 +28,16 @@ LoginIconSolid.propTypes = {
   fill: React.PropTypes.string,
   style: React.PropTypes.object,
   ariaHidden: React.PropTypes.bool,
+  preserveAspectRatio: React.PropTypes.string,
 };
 
 LoginIconSolid.defaultProps = {
   className: 'loginIcon',
-  title: 'NYPL Login Solid SVG Icon',
+  title: 'Log in',
   width: '32',
   height: '32',
   viewBox: '0 0 32 32',
+  preserveAspectRatio: 'xMidYMid meet',
 };
 
 export default LoginIconSolid;
