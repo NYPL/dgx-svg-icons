@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
+const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill, ariaHidden, preserveAspectRatio, iconId, svgRole, }) => (
   <svg
     viewBox={viewBox}
     height={height}
@@ -9,8 +9,11 @@ const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill,
     style={style}
     fill={fill}
     aria-hidden={ariaHidden}
+    preserveAspectRatio={preserveAspectRatio}
+    aria-labelledby={iconId}
+    role={svgRole}
   >
-    <title>{title}</title>
+  <title id={iconId}>{title}</title>
     <g>
       <circle cx="16.07184" cy="10.26496" r="5.39254" />
       <polygon points="27.313 27.313 4.688 27.313 8.031 19.188 23.969 19.188 27.313 27.313" />
