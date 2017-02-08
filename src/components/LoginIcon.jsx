@@ -1,5 +1,5 @@
 import React from 'react';
-const LoginIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden, preserveAspectRatio, ariaDesc, iconId, svgRole, }) => (
+const LoginIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden, preserveAspectRatio, iconId, svgRole, }) => (
   <svg
     viewBox={viewBox}
     height={height}
@@ -28,7 +28,6 @@ LoginIcon.propTypes = {
   style: React.PropTypes.object,
   ariaHidden: React.PropTypes.bool,
   preserveAspectRatio: React.PropTypes.string,
-  ariaDesc: React.PropTypes.string,
   iconId: React.PropTypes.string,
   svgRole: React.PropTypes.string,
 };
