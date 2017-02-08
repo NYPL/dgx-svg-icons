@@ -34,7 +34,7 @@ LoginIcon.propTypes = {
 
 LoginIcon.defaultProps = {
   className: 'loginIcon',
-  title: 'Log in to NYPL',
+  title: 'Log in to your account',
   width: '32',
   height: '32',
   viewBox: '0 0 32 32',

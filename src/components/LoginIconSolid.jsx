@@ -35,7 +35,7 @@ LoginIconSolid.propTypes = {
 
 LoginIconSolid.defaultProps = {
   className: 'loginIcon',
-  title: 'You are logged in',
+  title: 'You are logged in to your account',
   width: '32',
   height: '32',
   viewBox: '0 0 32 32',
