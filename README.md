@@ -104,3 +104,4 @@ SmallDotClosedIcon | `<SmallDotClosedIcon />`
 SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
 XIcon | `<XIcon />`
+BuildingIcon | `<BuildingIcon />`
