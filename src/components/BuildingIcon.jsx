@@ -43,6 +43,7 @@ BuildingIcon.defaultProps = {
   height: '32',
   viewBox: '0 0 32 32',
   preserveAspectRatio: 'xMidYMid meet',
+  iconId: 'building-icon'
   svgRole: 'img',
 };
 
