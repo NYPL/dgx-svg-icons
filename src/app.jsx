@@ -35,6 +35,7 @@ import {
   RadioActiveIcon,
   SmallDotClosedIcon,
   SmallDotOpenIcon,
+  BuildingIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -157,3 +158,6 @@ render(<SmallDotClosedIcon />, document.getElementById('smallDotClosedIcon'));
 
 // Render Small Dot Open Icon
 render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
+
+// Render the Buiding Icon
+render(<BuildingIcon />, document.getElementById('bldgIcon'))
