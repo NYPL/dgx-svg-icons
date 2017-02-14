@@ -160,4 +160,4 @@ render(<SmallDotClosedIcon />, document.getElementById('smallDotClosedIcon'));
 render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
 
 // Render the Buiding Icon
-render(<BuildingIcon />, document.getElementById('bldgIcon'));
+render(<BuildingIcon iconId="building-icon" />, document.getElementById('bldgIcon'));

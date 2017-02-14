@@ -34,6 +34,7 @@ BuildingIcon.propTypes = {
   ariaHidden: React.PropTypes.bool,
   preserveAspectRatio: React.PropTypes.string,
   svgRole: React.PropTypes.string,
+  iconId: React.PropTypes.string,
 };
 
 BuildingIcon.defaultProps = {
@@ -43,7 +44,6 @@ BuildingIcon.defaultProps = {
   height: '32',
   viewBox: '0 0 32 32',
   preserveAspectRatio: 'xMidYMid meet',
-  iconId: 'building-icon',
   svgRole: 'img',
 };
 
