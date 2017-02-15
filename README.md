@@ -34,11 +34,6 @@ render(
   document.getElementById('LionLogoIcon')
 );
 
-render(
-  <BookIcon ariaHidden />,
-  document.getElementById('BookIcon')
-);
-
 ```
 
 ### Props
@@ -53,6 +48,9 @@ width | string
 title | string
 className | string
 ariaHidden | boolean
+preserveAspectRatio | string
+iconId | string
+svgRole | string
 
 By default, the `defaultProps` generate:
 
@@ -61,8 +59,31 @@ By default, the `defaultProps` generate:
 * width
 * title
 * className
+* preserveAspectRatio
+* svgRole
 
 There are also props such as `fill`, `style`, and `size` for only a few components.
+
+### Accessibility Guidelines
+There are certain icons that will appear multiple times and have presentational value, but not necessarily semantic or have value with respect to accessibility, and others where there should only be one instance.
+
+In the case of multiple rendering of an icon, such as the three-dotted "more" icon a unique ID is not required and should not be set (unless your application requires it to be set), but it should have the `ariaHidden` attribute set.
+
+Example:
+```javascript
+
+render(<DotsIcon ariaHidden />);
+
+```
+
+In the case where a unique id should be set for each instance and in the case of it appearing multiple times. The `iconId` property will set `id="{iconId}"` on the svg's `title` attribute, this will also set   `aria-labelledby` attribute ont the `<svg>` tag
+
+Example:
+```javascript
+
+render(<LoginIcon iconId="login-icon" />);
+
+```
 
 ### Reference
 
