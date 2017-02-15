@@ -67,7 +67,7 @@ There are also props such as `fill`, `style`, and `size` for only a few componen
 ### Accessibility Guidelines
 There are certain icons that will appear multiple times and have presentational value, but not necessarily semantic or have value with respect to accessibility, and others where there should only be one instance.
 
-In the case of multiple rendering of an icon, such as the three-dotted "more" icon a unique ID is not required and should not be set (unless your application requires it to be set), but it should have the `ariaHidden` attribute set.
+In the case of multiple rendering of an icon, such as the three-dotted "more" icon a unique ID is not required and should not be set (unless your application requires it to be set), but it should have the `ariaHidden` attribute set (if not already set by default in the icon.jsx file).
 
 Example:
 ```javascript
@@ -76,7 +76,7 @@ render(<DotsIcon ariaHidden />);
 
 ```
 
-In the case where a unique id should be set for each instance and in the case of it appearing multiple times. The `iconId` property will set `id="{iconId}"` on the svg's `title` attribute, this will also set   `aria-labelledby` attribute ont the `<svg>` tag
+In the case where a unique id should be set for each instance and in the case of it appearing multiple times. The `iconId` property will set `id="{iconId}"` on the svg's `title` attribute, this will also set `aria-labelledby` attribute on the `<svg>` tag. icon.jsx files that should have an `id` will throw a console error if it is missing, but the .jsx file itself will not set one by default, you must explicitly set it.
 
 Example:
 ```javascript
