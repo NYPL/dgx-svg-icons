@@ -76,7 +76,7 @@ render(<DotsIcon ariaHidden />);
 
 ```
 
-In the case where a unique id should be set for each instance and in the case of it appearing multiple times. The `iconId` property will set `id="{iconId}"` on the svg's `title` attribute, this will also set `aria-labelledby` attribute on the `<svg>` tag. icon.jsx files that should have an `id` will throw a console error if it is missing, but the .jsx file itself will not set one by default, you must explicitly set it.
+In the case where a unique id should be set for each instance and in the case of it appearing multiple times you should set `iconId="foo-icon"`. The `iconId` property will set `id="{iconId}"` on the svg's `title` attribute, this will also set `aria-labelledby` attribute on the `<svg>` tag. The .jsx files that should have an `id` will throw a console error if it is missing, but the .jsx file itself will not set one by default, you must explicitly set it.
 
 Example:
 ```javascript
