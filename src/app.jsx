@@ -70,7 +70,7 @@ render(<BookIcon fill="#000" />, document.getElementById('bookIcon'));
 render(<DotsIcon ariaHidden />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
-render(<XIcon fill="#000" />, document.getElementById('XIcon'));
+render(<XIcon iconId="close-icon" title="Close this dialog button" />, document.getElementById('XIcon'));
 
 // Render Dots SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
