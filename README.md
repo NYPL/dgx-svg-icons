@@ -126,3 +126,6 @@ SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
 XIcon | `<XIcon />`
 BuildingIcon | `<BuildingIcon />`
+
+### Version
+0.0.20
