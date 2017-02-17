@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LogoutIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
+const LogoutIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden, preserveAspectRatio, iconId, svgRole, }) => (
   <svg
     viewBox={viewBox}
     height={height}
@@ -9,6 +9,9 @@ const LogoutIcon = ({ viewBox, height, width, title, className, style, fill, ari
     style={style}
     fill={fill}
     aria-hidden={ariaHidden}
+    preserveAspectRatio={preserveAspectRatio}
+    aria-labelledby={iconId}
+    role={svgRole}
   >
     <title>{title}</title>
     <g>
@@ -27,11 +30,14 @@ LogoutIcon.propTypes = {
   fill: React.PropTypes.string,
   style: React.PropTypes.object,
   ariaHidden: React.PropTypes.bool,
+  preserveAspectRatio: React.PropTypes.string,
+  iconId: React.PropTypes.string,
+  svgRole: React.PropTypes.string,
 };
 
 LogoutIcon.defaultProps = {
   className: 'logoutIcon',
-  title: 'NYPL Logout SVG Icon',
+  title: 'NYPL Logout Icon',
   width: '16',
   height: '32',
   viewBox: '0 0 32 32',
