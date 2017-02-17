@@ -35,6 +35,7 @@ import {
   RadioActiveIcon,
   SmallDotClosedIcon,
   SmallDotOpenIcon,
+  BuildingIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -66,7 +67,7 @@ render(<CarouselCircleIcon type="solid" />, document.getElementById('carouselIco
 render(<BookIcon fill="#000" />, document.getElementById('bookIcon'));
 
 // Render Dots SVG Icon
-render(<DotsIcon />, document.getElementById('dotsIcon'));
+render(<DotsIcon ariaHidden />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
 render(<XIcon fill="#000" />, document.getElementById('XIcon'));
@@ -126,10 +127,10 @@ render(
 render(<SearchIcon />, document.getElementById('searchIcon'));
 
 // Render Login SVG Icon
-render(<LoginIcon />, document.getElementById('loginIcon'));
+render(<LoginIcon iconId="login-icon" />, document.getElementById('loginIcon'));
 
 // Render Login Solid SVG Icon
-render(<LoginIconSolid />, document.getElementById('loginIconSolid'));
+render(<LoginIconSolid iconId="loggedin-icon" />, document.getElementById('loginIconSolid'));
 
 // Render Logout SVG Icon
 render(<LogoutIcon />, document.getElementById('logoutIcon'));
@@ -157,3 +158,6 @@ render(<SmallDotClosedIcon />, document.getElementById('smallDotClosedIcon'));
 
 // Render Small Dot Open Icon
 render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
+
+// Render the Buiding Icon
+render(<BuildingIcon iconId="building-icon" />, document.getElementById('bldgIcon'));

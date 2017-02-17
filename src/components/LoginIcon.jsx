@@ -28,7 +28,7 @@ LoginIcon.propTypes = {
   style: React.PropTypes.object,
   ariaHidden: React.PropTypes.bool,
   preserveAspectRatio: React.PropTypes.string,
-  iconId: React.PropTypes.string,
+  iconId: React.PropTypes.string.isRequired,
   svgRole: React.PropTypes.string,
 };
 
@@ -39,7 +39,6 @@ LoginIcon.defaultProps = {
   height: '32',
   viewBox: '0 0 32 32',
   preserveAspectRatio: 'xMidYMid meet',
-  iconId: 'login-icon',
   svgRole: 'img',
 };
 

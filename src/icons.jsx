@@ -32,6 +32,7 @@ import RadioInactiveIcon from './components/RadioInactiveIcon.jsx';
 import RadioActiveIcon from './components/RadioActiveIcon.jsx';
 import SmallDotClosedIcon from './components/SmallDotClosedIcon.jsx';
 import SmallDotOpenIcon from './components/SmallDotOpenIcon.jsx';
+import BuildingIcon from './components/BuildingIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -68,4 +69,5 @@ export {
   RadioActiveIcon,
   SmallDotClosedIcon,
   SmallDotOpenIcon,
+  BuildingIcon,
 };
