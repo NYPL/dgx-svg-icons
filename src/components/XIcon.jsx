@@ -31,6 +31,7 @@ XIcon.propTypes = {
 };
 
 XIcon.defaultProps = {
+  ariaHidden: true,
   className: 'x-icon',
   title: 'NYPL X SVG Icon',
   height: '32',
