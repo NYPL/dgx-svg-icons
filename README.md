@@ -127,5 +127,10 @@ TagIcon | `<TagIcon />`
 XIcon | `<XIcon />`
 BuildingIcon | `<BuildingIcon />`
 
-### Version
-0.0.20
+### Change Log
+#### v.0.21
+> Accessibility updates as well as added `preserveAspectRatio` to XIcon's attribute set
+> Added Changeloging to this reamdme.md file.
+
+#### 0.0.20
+> Accessibility updates to login / logout icons
