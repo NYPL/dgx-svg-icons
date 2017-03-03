@@ -30,7 +30,7 @@ LoginIconSolid.propTypes = {
   style: React.PropTypes.object,
   ariaHidden: React.PropTypes.bool,
   preserveAspectRatio: React.PropTypes.string,
-  iconId: React.PropTypes.string.isRequired,
+  iconId: React.PropTypes.string,
   svgRole: React.PropTypes.string,
 };
 
