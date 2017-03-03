@@ -70,7 +70,7 @@ render(<BookIcon fill="#000" />, document.getElementById('bookIcon'));
 render(<DotsIcon ariaHidden />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
-render(<XIcon iconId="close-icon" />, document.getElementById('XIcon'));
+render(<XIcon />, document.getElementById('XIcon'));
 
 // Render Dots SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
@@ -127,10 +127,10 @@ render(
 render(<SearchIcon />, document.getElementById('searchIcon'));
 
 // Render Login SVG Icon
-render(<LoginIcon iconId="login-icon" />, document.getElementById('loginIcon'));
+render(<LoginIcon />, document.getElementById('loginIcon'));
 
 // Render Login Solid SVG Icon
-render(<LoginIconSolid iconId="loggedin-icon" />, document.getElementById('loginIconSolid'));
+render(<LoginIconSolid />, document.getElementById('loginIconSolid'));
 
 // Render Logout SVG Icon
 render(<LogoutIcon />, document.getElementById('logoutIcon'));
@@ -160,4 +160,4 @@ render(<SmallDotClosedIcon />, document.getElementById('smallDotClosedIcon'));
 render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
 
 // Render the Buiding Icon
-render(<BuildingIcon iconId="building-icon" />, document.getElementById('bldgIcon'));
+render(<BuildingIcon />, document.getElementById('bldgIcon'));
