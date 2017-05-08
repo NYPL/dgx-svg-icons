@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node_modules/.bin/webpack -p --config webpack.config.js",
     "start": "NODE_ENV=development node server.js",
-    "styleguide": "styleguidist server",
+    "styleguide": "node_modules/.bin/styleguidist server",
     "styleguide:build": "styleguidist build"
   },
   "license": "MIT",
@@ -22,7 +22,9 @@
   "bugs": {
     "url": "https://bitbucket.org/NYPL/dgx-svg-icons/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-styleguidist": "^5.2.0"
+  },
   "devDependencies": {
     "babel-core": "^6.7.2",
     "babel-loader": "^6.2.4",
