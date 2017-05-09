@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === 'development') {
 
   var app = express();
 
-  app.set('port', 3000);
+  app.set('port', process.env.PORT || 3001);
   app.use(express.static(INDEX_PATH));
   // app.get('/', function(req, res) {
   //   res.status(200).return()
