@@ -1,1 +1,1 @@
-web: npm run styleguide
+web: npm run heroku
