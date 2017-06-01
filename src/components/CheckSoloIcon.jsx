@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CheckIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
   <svg
@@ -14,12 +15,12 @@ const CheckIcon = ({ viewBox, height, width, title, className, ariaHidden }) => 
 );
 
 CheckIcon.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  ariaHidden: React.PropTypes.bool,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  ariaHidden: PropTypes.bool,
 };
 
 CheckIcon.defaultProps = {

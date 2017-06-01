@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHidden }) => (
   <svg
@@ -16,13 +17,13 @@ const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHi
 );
 
 CircleDashIcon.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  fill: React.PropTypes.string,
-  ariaHidden: React.PropTypes.bool,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  ariaHidden: PropTypes.bool,
 };
 
 CircleDashIcon.defaultProps = {

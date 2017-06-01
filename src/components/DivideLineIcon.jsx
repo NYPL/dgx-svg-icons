@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const DivideLineIcon = ({ ariaHidden, className, height, length, stroke, strokeWidth, title, viewBox, width }) => (
   <svg
@@ -14,15 +15,15 @@ const DivideLineIcon = ({ ariaHidden, className, height, length, stroke, strokeW
 );
 
 DivideLineIcon.propTypes = {
-  ariaHidden: React.PropTypes.bool,
-  className: React.PropTypes.string,
-  height: React.PropTypes.string,
-  length: React.PropTypes.string,
-  stroke: React.PropTypes.string,
-  strokeWidth: React.PropTypes.string,
-  title: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  width: React.PropTypes.string,
+  ariaHidden: PropTypes.bool,
+  className: PropTypes.string,
+  height: PropTypes.string,
+  length: PropTypes.string,
+  stroke: PropTypes.string,
+  strokeWidth: PropTypes.string,
+  title: PropTypes.string,
+  viewBox: PropTypes.string,
+  width: PropTypes.string,
 };
 
 DivideLineIcon.defaultProps = {
