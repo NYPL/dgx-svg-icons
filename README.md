@@ -126,10 +126,13 @@ SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
 XIcon | `<XIcon />`
 BuildingIcon | `<BuildingIcon />`
+DownWedgeIcon | `<DownWedgeIcon />`
+LeftArrowIcon | `<LeftArrowIcon />`
+RightArrowIcon | `<RightArrowIcon />`
 
 ### Change Log
 #### v.0.23
-> Added WedgeDownIcon, 
+> Added WedgeDownIcon,
 
 #### v.0.22
 > rolled back to avoid React complaints about missing iconId prop.
