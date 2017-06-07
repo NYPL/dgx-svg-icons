@@ -33,6 +33,9 @@ import RadioActiveIcon from './components/RadioActiveIcon.jsx';
 import SmallDotClosedIcon from './components/SmallDotClosedIcon.jsx';
 import SmallDotOpenIcon from './components/SmallDotOpenIcon.jsx';
 import BuildingIcon from './components/BuildingIcon.jsx';
+import DownWedgeIcon from './components/DownWedgeIcon.jsx';
+import LeftArrowIcon from './components/LeftArrowIcon.jsx';
+import RightArrowIcon from './components/RightArrowIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -70,4 +73,7 @@ export {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
+  DownWedgeIcon,
+  LeftArrowIcon,
+  RightArrowIcon,
 };

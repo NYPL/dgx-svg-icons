@@ -36,6 +36,9 @@ import {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
+  DownWedgeIcon,
+  LeftArrowIcon,
+  RightArrowIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -161,3 +164,12 @@ render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
 
 // Render the Buiding Icon
 render(<BuildingIcon />, document.getElementById('bldgIcon'));
+
+// Render the Down Wedge Icon
+render(<DownWedgeIcon />, document.getElementById('downWedgeIcon'));
+
+// Render the Left Arrow Icon
+render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
+
+// Render the Wedge Down Icon
+render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
