@@ -126,3 +126,6 @@ SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
 XIcon | `<XIcon />`
 BuildingIcon | `<BuildingIcon />`
+DownWedgeIcon | `<DownWedgeIcon />`
+LeftArrowIcon | `<LeftArrowIcon />`
+RightArrowIcon | `<RightArrowIcon />`

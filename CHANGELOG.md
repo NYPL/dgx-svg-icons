@@ -4,6 +4,9 @@
 > Updating to React 15.
 > Making sure packages all have an exact version in package.json.
 
+#### v.0.23
+> Added WedgeDownIcon,
+
 #### v.0.22
 > rolled back to avoid React complaints about missing iconId prop.
 > TODO: change all relevant icons to use this prop, and then make changes across the apps.
