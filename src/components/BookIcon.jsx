@@ -33,7 +33,7 @@ BookIcon.defaultProps = {
   height: '24px',
   width: '24px',
   viewBox: '0 0 32 32',
-  fill: '#FFF',
+  fill: '#000',
 };
 
 export default BookIcon;
