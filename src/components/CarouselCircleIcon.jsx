@@ -56,7 +56,7 @@ CarouselCircleIcon.defaultProps = {
   height: '24px',
   width: '24px',
   viewBox: '0 0 24 24',
-  fill: '#FFF',
+  fill: '#000',
 };
 
 export default CarouselCircleIcon;
