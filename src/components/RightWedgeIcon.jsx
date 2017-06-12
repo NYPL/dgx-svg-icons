@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const RightWedgeIcon = ({ ariaHidden, className, fill, height, title, viewBox, width }) => (
   <svg
@@ -15,13 +16,13 @@ const RightWedgeIcon = ({ ariaHidden, className, fill, height, title, viewBox, w
 );
 
 RightWedgeIcon.propTypes = {
-  ariaHidden: React.PropTypes.bool,
-  className: React.PropTypes.string,
-  fill: React.PropTypes.string,
-  height: React.PropTypes.string,
-  title: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
+  ariaHidden: PropTypes.bool,
+  className: PropTypes.string,
+  fill: PropTypes.string,
+  height: PropTypes.string,
+  title: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
 };
 
 RightWedgeIcon.defaultProps = {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const LogoutIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
   <svg
@@ -19,14 +20,14 @@ const LogoutIcon = ({ viewBox, height, width, title, className, style, fill, ari
 );
 
 LogoutIcon.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  fill: React.PropTypes.string,
-  style: React.PropTypes.object,
-  ariaHidden: React.PropTypes.bool,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  style: PropTypes.object,
+  ariaHidden: PropTypes.bool,
 };
 
 LogoutIcon.defaultProps = {

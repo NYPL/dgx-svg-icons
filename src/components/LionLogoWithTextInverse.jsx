@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const LionLogoWithTextInverse = ({
   className,
@@ -63,14 +64,14 @@ const LionLogoWithTextInverse = ({
 );
 
 LionLogoWithTextInverse.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  fill: React.PropTypes.string,
-  ariaHidden: React.PropTypes.bool,
-  style: React.PropTypes.object,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  ariaHidden: PropTypes.bool,
+  style: PropTypes.object,
 };
 
 LionLogoWithTextInverse.defaultProps = {

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill, ariaHidden, preserveAspectRatio, iconId, svgRole, }) => (
   <svg
@@ -21,17 +22,17 @@ const LoginIconSolid = ({ viewBox, height, width, title, className, style, fill,
 
 
 LoginIconSolid.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  fill: React.PropTypes.string,
-  style: React.PropTypes.object,
-  ariaHidden: React.PropTypes.bool,
-  preserveAspectRatio: React.PropTypes.string,
-  iconId: React.PropTypes.string,
-  svgRole: React.PropTypes.string,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  style: PropTypes.object,
+  ariaHidden: PropTypes.bool,
+  preserveAspectRatio: PropTypes.string,
+  iconId: PropTypes.string,
+  svgRole: PropTypes.string,
 };
 
 LoginIconSolid.defaultProps = {
