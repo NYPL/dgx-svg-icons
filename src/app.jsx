@@ -67,10 +67,10 @@ render(<CarouselCircleIcon ariaHidden />, document.getElementById('carouselIcon'
 render(<CarouselCircleIcon type="solid" />, document.getElementById('carouselIconSolid'));
 
 // Render Book SVG Icon
-render(<BookIcon fill="#000" />, document.getElementById('bookIcon'));
+render(<BookIcon />, document.getElementById('bookIcon'));
 
 // Render Dots SVG Icon
-render(<DotsIcon ariaHidden />, document.getElementById('dotsIcon'));
+render(<DotsIcon />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
 render(<XIcon />, document.getElementById('XIcon'));
@@ -79,7 +79,7 @@ render(<XIcon />, document.getElementById('XIcon'));
 render(<FilterIcon />, document.getElementById('filterIcon'));
 
 // Render Dots SVG Icon
-render(<ListIcon fill="#000" />, document.getElementById('listIcon'));
+render(<ListIcon/>, document.getElementById('listIcon'));
 
 // Render Dots SVG Icon
 render(<GridIcon />, document.getElementById('gridIcon'));
@@ -88,10 +88,10 @@ render(<GridIcon />, document.getElementById('gridIcon'));
 render(<ApplyIcon />, document.getElementById('applyIcon'));
 
 // Render Dots SVG Icon
-render(<ResetIcon fill="#000" />, document.getElementById('resetIcon'));
+render(<ResetIcon/>, document.getElementById('resetIcon'));
 
 // Render Dots SVG Icon
-render(<CircleDashIcon fill="#000" />, document.getElementById('circleDashIcon'));
+render(<CircleDashIcon />, document.getElementById('circleDashIcon'));
 
 // Render Dots SVG Icon
 render(<AudioHeadphoneIcon />, document.getElementById('audioHeadphoneIcon'));
@@ -115,16 +115,14 @@ render(<EReaderIcon />, document.getElementById('eReaderIcon'));
 render(<TagIcon />, document.getElementById('tagIcon'));
 
 // Render Locator SVG Icon (Small Dot)
-render(<LocatorIcon fill="red" ariaHidden />, document.getElementById('locatorIcon'));
+render(<LocatorIcon />, document.getElementById('locatorIcon'));
 
 // Render Locator SVG Icon (Large Dot)
-render(<LocatorIcon fill="blue" size="large" />, document.getElementById('locatorIconLarge'));
+render(<LocatorIcon />, document.getElementById('locatorIconLarge'));
 
 // Render Menu SVG Icon
 render(
-  <MenuIcon ariaHidden fill="#FFF" style={{ backgroundColor: 'red' }} />,
-  document.getElementById('menuIcon')
-);
+  <MenuIcon />, document.getElementById('menuIcon'));
 
 // Render Search SVG Icon
 render(<SearchIcon />, document.getElementById('searchIcon'));

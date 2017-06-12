@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ResetIcon = ({ viewBox, height, width, title, className, fill, ariaHidden }) => (
   <svg
@@ -14,13 +15,13 @@ const ResetIcon = ({ viewBox, height, width, title, className, fill, ariaHidden 
 );
 
 ResetIcon.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  fill: React.PropTypes.string,
-  ariaHidden: React.PropTypes.bool,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  fill: PropTypes.string,
+  ariaHidden: PropTypes.bool,
 };
 
 ResetIcon.defaultProps = {
@@ -29,7 +30,7 @@ ResetIcon.defaultProps = {
   width: '32',
   height: '32',
   viewBox: '0 0 32 32',
-  fill: '#FFF',
+  fill: '#000',
 };
 
 export default ResetIcon;

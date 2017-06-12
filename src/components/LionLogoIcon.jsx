@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class LionLogoIcon extends React.Component {
   getViewBox() {
@@ -56,15 +57,15 @@ class LionLogoIcon extends React.Component {
 }
 
 LionLogoIcon.propTypes = {
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  type: React.PropTypes.string,
-  height: React.PropTypes.number,
-  width: React.PropTypes.number,
-  fill: React.PropTypes.string,
-  inverseFill: React.PropTypes.string,
-  style: React.PropTypes.object,
-  ariaHidden: React.PropTypes.bool,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  type: PropTypes.string,
+  height: PropTypes.number,
+  width: PropTypes.number,
+  fill: PropTypes.string,
+  inverseFill: PropTypes.string,
+  style: PropTypes.object,
+  ariaHidden: PropTypes.bool,
 };
 
 LionLogoIcon.defaultProps = {
