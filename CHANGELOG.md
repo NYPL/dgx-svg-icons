@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.1.1
+> Added attribute updates to <ApplyIcon> and <ResetIcon>.
+
 ### v0.1.0
 > Updating to React 15.
 > Making sure packages all have an exact version in package.json.
