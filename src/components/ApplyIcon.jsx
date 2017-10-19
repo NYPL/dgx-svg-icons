@@ -25,7 +25,7 @@ ApplyIcon.propTypes = {
   title: PropTypes.string,
   width: PropTypes.string,
   viewBox: PropTypes.string,
-  labelledById: PropTypes.string,
+  labelledById: PropTypes.string.isRequired,
 };
 
 ApplyIcon.defaultProps = {

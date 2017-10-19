@@ -24,7 +24,7 @@ ResetIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
-  labelledById: PropTypes.string,
+  labelledById: PropTypes.string.isRequired,
 };
 
 ResetIcon.defaultProps = {
