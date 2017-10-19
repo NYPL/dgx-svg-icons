@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const BookIcon = ({ viewBox, height, width, title, className, fill, ariaHidden, preserveAspectRatio }) => (
+const BookIcon = ({ viewBox, height, width, title, className, ariaHidden, preserveAspectRatio }) => (
   <svg
     width={width}
     height={height}
