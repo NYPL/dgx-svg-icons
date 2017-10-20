@@ -1,7 +1,10 @@
 ## CHANGELOG
 
-### v0.1.1
+### v0.2.1
 > Added attribute updates to <ApplyIcon> and <ResetIcon>.
+
+### v0.2
+> Removed hard coded `fill` attributes
 
 ### v0.1.0
 > Updating to React 15.
