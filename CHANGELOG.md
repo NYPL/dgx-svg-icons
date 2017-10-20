@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.2
+> Removed hard coded `fill` attributes
+
 ### v0.1.0
 > Updating to React 15.
 > Making sure packages all have an exact version in package.json.
