@@ -12,6 +12,7 @@ import {
   ListIcon,
   GridIcon,
   ApplyIcon,
+  DownLoadIcon,
   ResetIcon,
   CircleDashIcon,
   AudioHeadphoneIcon,
@@ -39,6 +40,8 @@ import {
   DownWedgeIcon,
   LeftArrowIcon,
   RightArrowIcon,
+  FaceBookIcon,
+  TwitterIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -86,6 +89,9 @@ render(<GridIcon />, document.getElementById('gridIcon'));
 
 // Render Dots SVG Icon
 render(<ApplyIcon />, document.getElementById('applyIcon'));
+
+// Render the Download Icon
+render(<DownLoadIcon />, document.getElementById('downLoadIcon'));
 
 // Render Dots SVG Icon
 render(<ResetIcon/>, document.getElementById('resetIcon'));
@@ -171,3 +177,9 @@ render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
 
 // Render the Wedge Down Icon
 render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
+
+// Render the Facebook Icon
+render(<FaceBookIcon />, document.getElementById('faceBookIcon'));
+
+// Render the Twitter Icon
+render(<TwitterIcon />, document.getElementById('twitterIcon'));
