@@ -36,6 +36,12 @@ render(
 
 ```
 
+### Contributing to this repo
+* Prior to submitting a pull request, delete the `/dist` directory
+* From the command line rebuild `/dist` with `npm run build`
+* Add & commit the new `/dist` folder and make the pull request
+
+
 ### Props
 
 There are props that all components use:
@@ -100,8 +106,10 @@ CheckSoloIcon | `<CheckSoloIcon />`
 CircleDashIcon | `<CircleDashIcon />`
 DivideLineIcon | `<DivideLineIcon />`
 DotsIcon | `<DotsIcon />`
+DownLoadIcon | `<DownLoadIcon />`
 DvdDiscIcon | `<DvdDiscIcon />`
 EReaderIcon | `<EReaderIcon />`
+FaceBookIcon | `<FaceBookIcon />`
 FilterIcon | `<FilterIcon />`
 GridIcon | `<GridIcon />`
 LargePrintIcon | `<LargePrintIcon />`
@@ -124,6 +132,7 @@ SearchIcon | `<SearchIcon />`
 SmallDotClosedIcon | `<SmallDotClosedIcon />`
 SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
+TwitterIcon | `<TwitterIcon />`
 XIcon | `<XIcon />`
 BuildingIcon | `<BuildingIcon />`
 DownWedgeIcon | `<DownWedgeIcon />`
