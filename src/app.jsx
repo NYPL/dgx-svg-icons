@@ -78,34 +78,37 @@ render(<DotsIcon />, document.getElementById('dotsIcon'));
 // Render Dots SVG Icon
 render(<XIcon />, document.getElementById('XIcon'));
 
-// Render Dots SVG Icon
+// Render the Facebook Icon
+render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon'));
+
+// Render Filter SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
 
-// Render Dots SVG Icon
+// Render List SVG Icon
 render(<ListIcon/>, document.getElementById('listIcon'));
 
-// Render Dots SVG Icon
+// Render Grid SVG Icon
 render(<GridIcon />, document.getElementById('gridIcon'));
 
-// Render Dots SVG Icon
-render(<ApplyIcon />, document.getElementById('applyIcon'));
+// Render Apply SVG Icon
+render(<ApplyIcon iconId="apply" />, document.getElementById('applyIcon'));
 
 // Render the Download Icon
-render(<DownLoadIcon />, document.getElementById('downLoadIcon'));
+render(<DownLoadIcon iconId="download" />, document.getElementById('downLoadIcon'));
 
-// Render Dots SVG Icon
+// Render Reset SVG Icon
 render(<ResetIcon/>, document.getElementById('resetIcon'));
 
-// Render Dots SVG Icon
+// Render Circle with Dash SVG Icon
 render(<CircleDashIcon />, document.getElementById('circleDashIcon'));
 
-// Render Dots SVG Icon
+// Render Headphones / Audio SVG Icon
 render(<AudioHeadphoneIcon />, document.getElementById('audioHeadphoneIcon'));
 
-// Render Dots SVG Icon
+// Render Media Blue Ray SVG Icon
 render(<MediaBluRayIcon />, document.getElementById('mediaBluRayIcon'));
 
-// Render Dots SVG Icon
+// Render Audio Disc SVG Icon
 render(<AudioDiscIcon />, document.getElementById('audioDiscIcon'));
 
 // Render Dots SVG Icon
@@ -178,8 +181,5 @@ render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
 // Render the Wedge Down Icon
 render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
 
-// Render the Facebook Icon
-render(<FaceBookIcon />, document.getElementById('faceBookIcon'));
-
 // Render the Twitter Icon
-render(<TwitterIcon />, document.getElementById('twitterIcon'));
+render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
