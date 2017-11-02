@@ -61,8 +61,6 @@ svgRole | string
 By default, the `defaultProps` generate:
 
 * viewBox
-* height
-* width
 * title
 * className
 * preserveAspectRatio
