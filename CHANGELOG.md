@@ -1,7 +1,14 @@
 ## CHANGELOG
 
-### v0.2.2
+### v0.2.4
+> Moving this permanently to [Github: https://github.com/NYPL/nypl-svg-icons](https://github.com/NYPL/nypl-svg-icons)
+***Please make sure you are using that repo, as this one is no longer maintained***
+
+### v0.2.3
 > Added FB, Twitter and a new Apply Icon, changed the _old_ Apply icon to a Download icon
+
+### v0.2.2
+> (╯°□°）╯︵ ┻━┻
 
 ### v0.2.1
 > Added attribute updates to <ApplyIcon> and <ResetIcon>.
