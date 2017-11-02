@@ -6,7 +6,7 @@ SVG icons used at NYPL Digital as React Components.
 
 Not an npm module at the moment but it can be added in the dependencies in package.json as:
 
-`"dgx-svg-icons": "git+ssh://bitbucket.org/NYPL/dgx-svg-icons.git#master",`
+`"dgx-svg-icons": "git+ssh://NYPL/dgx-svg-icons.git#master",`
 
 
 ### Demo
