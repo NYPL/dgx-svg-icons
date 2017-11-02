@@ -30,8 +30,7 @@ DownLoadIcon.propTypes = {
 
 DownLoadIcon.defaultProps = {
   ariaHidden: true,
-  className: 'apply-icon',
-  // iconId: 'download',
+  className: 'download-icon',
   title: 'Download',
   viewBox: '0 0 32 32',
 };
