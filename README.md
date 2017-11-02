@@ -1,4 +1,5 @@
-# NYPL SVG Icons
+# NYPL SVG Icons (Deprecated Repo)
+***See: [github: https://github.com/NYPL/nypl-svg-icons](https://github.com/NYPL/nypl-svg-icons)***
 
 SVG icons used at NYPL Digital as React Components.
 
