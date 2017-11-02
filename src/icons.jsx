@@ -9,6 +9,7 @@ import FilterIcon from './components/FilterIcon.jsx';
 import ListIcon from './components/ListIcon.jsx';
 import GridIcon from './components/GridIcon.jsx';
 import ApplyIcon from './components/ApplyIcon.jsx';
+import DownLoadIcon from './components/DownLoadIcon.jsx';
 import ResetIcon from './components/ResetIcon.jsx';
 import CircleDashIcon from './components/CircleDashIcon.jsx';
 import AudioHeadphoneIcon from './components/AudioHeadphoneIcon.jsx';
@@ -36,6 +37,8 @@ import BuildingIcon from './components/BuildingIcon.jsx';
 import DownWedgeIcon from './components/DownWedgeIcon.jsx';
 import LeftArrowIcon from './components/LeftArrowIcon.jsx';
 import RightArrowIcon from './components/RightArrowIcon.jsx';
+import FaceBookIcon from './components/FaceBookIcon.jsx';
+import TwitterIcon from './components/TwitterIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -49,6 +52,7 @@ export {
   ListIcon,
   GridIcon,
   ApplyIcon,
+  DownLoadIcon,
   ResetIcon,
   CircleDashIcon,
   AudioHeadphoneIcon,
@@ -76,4 +80,6 @@ export {
   DownWedgeIcon,
   LeftArrowIcon,
   RightArrowIcon,
+  FaceBookIcon,
+  TwitterIcon,
 };
