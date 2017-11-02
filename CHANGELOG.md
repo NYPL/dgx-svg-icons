@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-### v0.3
+### v0.2.2
 > Added FB, Twitter and a new Apply Icon, changed the _old_ Apply icon to a Download icon
 
 ### v0.2.1
