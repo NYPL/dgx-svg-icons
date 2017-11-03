@@ -1,6 +1,6 @@
 {
   "name": "@nypl/dgx-svg-icons",
-  "version": "2.5",
+  "version": "0.2.5",
   "description": "React DGX SVG Icons",
   "main": "dist/index.min.js",
   "scripts": {
