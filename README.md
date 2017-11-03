@@ -6,7 +6,6 @@ SVG icons used at NYPL Digital as React Components.
 
 `npm i --save @nypl/dgx-svg-icons`
 
-
 ### Demo
 
 * `npm install`
