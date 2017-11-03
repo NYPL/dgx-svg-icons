@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.2.5
+> Updates to `npm` import instructions
+
 ### v0.2.4
 > Moving this permanently to [Github: https://github.com/NYPL/nypl-svg-icons](https://github.com/NYPL/nypl-svg-icons)
 ***Please make sure you are using that repo, as this one is no longer maintained***
