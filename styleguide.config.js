@@ -1,3 +1,4 @@
 module.exports = {
-  components: 'src/components/*.jsx'
+  components: 'src/components/*.jsx',
+  styleguideDir: 'docs',
 };
