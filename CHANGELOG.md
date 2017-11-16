@@ -1,7 +1,7 @@
 ## CHANGELOG
 
 ### v0.2.6
-> new close icon w/ circle around it added
+> new close icon w/ circle around it added.
 
 ### v0.2.5
 > Updates to `npm` import instructions
