@@ -4,17 +4,21 @@ import PropTypes from 'prop-types';
 const XCloseIcon = ({
     ariaHidden,
     className,
+    height,
     iconId,
     preserveAspectRatio,
     title,
     viewBox,
+    width,
   }) => (
   <svg
     aria-hidden={ariaHidden}
     aria-labelledby={iconId}
     className={`${className} svgIcon`}
+    height={height}
     preserveAspectRatio={preserveAspectRatio}
     viewBox={viewBox}
+    width={width}
   >
     <title id={iconId}>{title}</title>
       <g>
@@ -27,18 +31,22 @@ const XCloseIcon = ({
 XCloseIcon.propTypes = {
   ariaHidden: PropTypes.bool,
   className: PropTypes.string,
+  height: PropTypes.string,
   iconId: PropTypes.string.isRequired,
   preserveAspectRatio: PropTypes.string,
   title: PropTypes.string,
   viewBox: PropTypes.string,
+  width: PropTypes.string,
 };
 
 XCloseIcon.defaultProps = {
   ariaHidden: true,
   className: 'x-close-circle-icon',
+  height: '48',
   preserveAspectRatio: 'xMidYMid meet',
   title: 'close',
-  viewBox: '0 0 96 96',
+  viewBox: '0 0 98 98',
+  width: '48',
 };
 
 export default XCloseIcon;

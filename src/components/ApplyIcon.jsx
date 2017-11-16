@@ -4,17 +4,21 @@ import PropTypes from 'prop-types';
 const ApplyIcon = ({
     ariaHidden,
     className,
+    height,
     iconId,
     preserveAspectRatio,
     title,
     viewBox,
+    width,
   }) => (
   <svg
     aria-hidden={ariaHidden}
     aria-labelledby={iconId}
     className={`${className} svgIcon`}
+    height={height}
     preserveAspectRatio={preserveAspectRatio}
     viewBox={viewBox}
+    width={width}
   >
     <title id={iconId}>{title}</title>
       <g>
@@ -27,18 +31,22 @@ const ApplyIcon = ({
 ApplyIcon.propTypes = {
   ariaHidden: PropTypes.bool,
   className: PropTypes.string,
+  height: PropTypes.string,
   iconId: PropTypes.string.isRequired,
   preserveAspectRatio: PropTypes.string,
   title: PropTypes.string,
   viewBox: PropTypes.string,
+  width: PropTypes.string,
 };
 
 ApplyIcon.defaultProps = {
   ariaHidden: true,
   className: 'apply-icon',
+  height: '68',
   preserveAspectRatio: 'xMidYMid meet',
   title: 'apply',
   viewBox: '0 0 68 55',
+  width: '55',
 };
 
 export default ApplyIcon;
