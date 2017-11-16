@@ -8,6 +8,7 @@ import {
   BookIcon,
   DotsIcon,
   XIcon,
+  XCloseIcon,
   FilterIcon,
   ListIcon,
   GridIcon,
@@ -77,6 +78,8 @@ render(<DotsIcon />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
 render(<XIcon />, document.getElementById('XIcon'));
+
+render(<XCloseIcon iconId="close" />, document.getElementById('xCloseIcon'));
 
 // Render the Facebook Icon
 render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon'));
