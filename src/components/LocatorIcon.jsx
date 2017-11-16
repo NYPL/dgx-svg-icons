@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const renderSvg = (size) => {
   if (size === 'large') {
@@ -33,15 +34,15 @@ const LocatorIcon = ({ viewBox, height, width, title, className, size, style, fi
 );
 
 LocatorIcon.propTypes = {
-  size: React.PropTypes.string,
-  className: React.PropTypes.string,
-  title: React.PropTypes.string,
-  height: React.PropTypes.string,
-  width: React.PropTypes.string,
-  viewBox: React.PropTypes.string,
-  style: React.PropTypes.object,
-  fill: React.PropTypes.string,
-  ariaHidden: React.PropTypes.bool,
+  size: PropTypes.string,
+  className: PropTypes.string,
+  title: PropTypes.string,
+  height: PropTypes.string,
+  width: PropTypes.string,
+  viewBox: PropTypes.string,
+  style: PropTypes.object,
+  fill: PropTypes.string,
+  ariaHidden: PropTypes.bool,
 };
 
 LocatorIcon.defaultProps = {

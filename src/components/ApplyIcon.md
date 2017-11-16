@@ -1,7 +1,7 @@
 ```
 <div>
-  <ApplyIcon />
-  <ApplyIcon width="50" height="50" />
+  <ApplyIcon iconId="apply1" />
+  <ApplyIcon iconId="apply2" width="50" height="50" />
 </div>
 ```
 
@@ -15,7 +15,7 @@ Example in a button:
   }}
 >
 
-  <ApplyIcon fill="#1B7FA7" />
+  <ApplyIcon fill="#1B7FA7" iconId="apply3" />
 
   <span style={{
       float: 'right',

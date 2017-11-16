@@ -1,13 +1,12 @@
 # NYPL SVG Icons
 
+[![GitHub version](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons.svg)](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons)
+
 SVG icons used at NYPL Digital as React Components.
 
 ### Install
 
-Not an npm module at the moment but it can be added in the dependencies in package.json as:
-
-`"dgx-svg-icons": "git+ssh://bitbucket.org/NYPL/dgx-svg-icons.git#master",`
-
+`npm i --save @nypl/dgx-svg-icons`
 
 ### Demo
 
@@ -36,6 +35,11 @@ render(
 
 ```
 
+### Contributing to this repo
+* From the command line rebuild the `/dist` directory with `npm run build`.
+* Optional but useful: rebuild the `/docs` styleguide with `npm run styleguide:build`.
+* Add & commit the new `/dist` and `/docs` folders and make the pull request.
+
 ### Props
 
 There are props that all components use:
@@ -55,8 +59,6 @@ svgRole | string
 By default, the `defaultProps` generate:
 
 * viewBox
-* height
-* width
 * title
 * className
 * preserveAspectRatio
@@ -85,6 +87,28 @@ render(<LoginIcon iconId="login-icon" />);
 
 ```
 
+### Styleguide
+
+We are using [Styleguidist](https://react-styleguidist.js.org/) as an interactive styleguide for our icon components. To run the styleguide locally, run
+
+```
+    $ npm run styleguide
+```
+
+Alternatively, you can build the styleguide and start a local server in the generated `/docs` folder. To do so, run
+
+```
+    $ npm run styleguide:build
+```
+
+then run
+
+```
+    $ cd docs && python -m SimpleHTTPServer 4000
+```
+
+then go to `localhost:4000` to see the styleguide. Doing this will serve the same styleguide that Github Pages will server.
+
 ### Reference
 
 ![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/master/images/svg.png)
@@ -100,8 +124,10 @@ CheckSoloIcon | `<CheckSoloIcon />`
 CircleDashIcon | `<CircleDashIcon />`
 DivideLineIcon | `<DivideLineIcon />`
 DotsIcon | `<DotsIcon />`
+DownLoadIcon | `<DownLoadIcon />`
 DvdDiscIcon | `<DvdDiscIcon />`
 EReaderIcon | `<EReaderIcon />`
+FaceBookIcon | `<FaceBookIcon />`
 FilterIcon | `<FilterIcon />`
 GridIcon | `<GridIcon />`
 LargePrintIcon | `<LargePrintIcon />`
@@ -124,17 +150,9 @@ SearchIcon | `<SearchIcon />`
 SmallDotClosedIcon | `<SmallDotClosedIcon />`
 SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
+TwitterIcon | `<TwitterIcon />`
 XIcon | `<XIcon />`
 BuildingIcon | `<BuildingIcon />`
-
-### Change Log
-#### v.0.22
-> rolled back to avoid React complaints about missing iconId prop.
-> TODO: change all relevant icons to use this prop, and then make changes across the apps.
-
-#### v.0.21
-> Accessibility updates as well as added `preserveAspectRatio` to XIcon's attribute set
-> Added Changeloging to this reamdme.md file.
-
-#### 0.0.20
-> Accessibility updates to login / logout icons
+DownWedgeIcon | `<DownWedgeIcon />`
+LeftArrowIcon | `<LeftArrowIcon />`
+RightArrowIcon | `<RightArrowIcon />`

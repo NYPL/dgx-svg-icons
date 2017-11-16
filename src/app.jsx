@@ -12,6 +12,7 @@ import {
   ListIcon,
   GridIcon,
   ApplyIcon,
+  DownLoadIcon,
   ResetIcon,
   CircleDashIcon,
   AudioHeadphoneIcon,
@@ -36,6 +37,11 @@ import {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
+  DownWedgeIcon,
+  LeftArrowIcon,
+  RightArrowIcon,
+  FaceBookIcon,
+  TwitterIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -64,39 +70,45 @@ render(<CarouselCircleIcon ariaHidden />, document.getElementById('carouselIcon'
 render(<CarouselCircleIcon type="solid" />, document.getElementById('carouselIconSolid'));
 
 // Render Book SVG Icon
-render(<BookIcon fill="#000" />, document.getElementById('bookIcon'));
+render(<BookIcon />, document.getElementById('bookIcon'));
 
 // Render Dots SVG Icon
-render(<DotsIcon ariaHidden />, document.getElementById('dotsIcon'));
+render(<DotsIcon />, document.getElementById('dotsIcon'));
 
 // Render Dots SVG Icon
 render(<XIcon />, document.getElementById('XIcon'));
 
-// Render Dots SVG Icon
+// Render the Facebook Icon
+render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon'));
+
+// Render Filter SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
 
-// Render Dots SVG Icon
-render(<ListIcon fill="#000" />, document.getElementById('listIcon'));
+// Render List SVG Icon
+render(<ListIcon/>, document.getElementById('listIcon'));
 
-// Render Dots SVG Icon
+// Render Grid SVG Icon
 render(<GridIcon />, document.getElementById('gridIcon'));
 
-// Render Dots SVG Icon
-render(<ApplyIcon />, document.getElementById('applyIcon'));
+// Render Apply SVG Icon
+render(<ApplyIcon iconId="apply" />, document.getElementById('applyIcon'));
 
-// Render Dots SVG Icon
-render(<ResetIcon fill="#000" />, document.getElementById('resetIcon'));
+// Render the Download Icon
+render(<DownLoadIcon iconId="download" />, document.getElementById('downLoadIcon'));
 
-// Render Dots SVG Icon
-render(<CircleDashIcon fill="#000" />, document.getElementById('circleDashIcon'));
+// Render Reset SVG Icon
+render(<ResetIcon/>, document.getElementById('resetIcon'));
 
-// Render Dots SVG Icon
+// Render Circle with Dash SVG Icon
+render(<CircleDashIcon />, document.getElementById('circleDashIcon'));
+
+// Render Headphones / Audio SVG Icon
 render(<AudioHeadphoneIcon />, document.getElementById('audioHeadphoneIcon'));
 
-// Render Dots SVG Icon
+// Render Media Blue Ray SVG Icon
 render(<MediaBluRayIcon />, document.getElementById('mediaBluRayIcon'));
 
-// Render Dots SVG Icon
+// Render Audio Disc SVG Icon
 render(<AudioDiscIcon />, document.getElementById('audioDiscIcon'));
 
 // Render Dots SVG Icon
@@ -112,16 +124,14 @@ render(<EReaderIcon />, document.getElementById('eReaderIcon'));
 render(<TagIcon />, document.getElementById('tagIcon'));
 
 // Render Locator SVG Icon (Small Dot)
-render(<LocatorIcon fill="red" ariaHidden />, document.getElementById('locatorIcon'));
+render(<LocatorIcon />, document.getElementById('locatorIcon'));
 
 // Render Locator SVG Icon (Large Dot)
-render(<LocatorIcon fill="blue" size="large" />, document.getElementById('locatorIconLarge'));
+render(<LocatorIcon />, document.getElementById('locatorIconLarge'));
 
 // Render Menu SVG Icon
 render(
-  <MenuIcon ariaHidden fill="#FFF" style={{ backgroundColor: 'red' }} />,
-  document.getElementById('menuIcon')
-);
+  <MenuIcon />, document.getElementById('menuIcon'));
 
 // Render Search SVG Icon
 render(<SearchIcon />, document.getElementById('searchIcon'));
@@ -161,3 +171,15 @@ render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
 
 // Render the Buiding Icon
 render(<BuildingIcon />, document.getElementById('bldgIcon'));
+
+// Render the Down Wedge Icon
+render(<DownWedgeIcon />, document.getElementById('downWedgeIcon'));
+
+// Render the Left Arrow Icon
+render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
+
+// Render the Wedge Down Icon
+render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
+
+// Render the Twitter Icon
+render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
