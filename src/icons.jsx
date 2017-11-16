@@ -5,6 +5,7 @@ import CarouselCircleIcon from './components/CarouselCircleIcon.jsx';
 import BookIcon from './components/BookIcon.jsx';
 import DotsIcon from './components/DotsIcon.jsx';
 import XIcon from './components/XIcon.jsx';
+import XCloseIcon from './components/XCloseIcon.jsx';
 import FilterIcon from './components/FilterIcon.jsx';
 import ListIcon from './components/ListIcon.jsx';
 import GridIcon from './components/GridIcon.jsx';
@@ -48,6 +49,7 @@ export {
   BookIcon,
   DotsIcon,
   XIcon,
+  XCloseIcon,
   FilterIcon,
   ListIcon,
   GridIcon,
