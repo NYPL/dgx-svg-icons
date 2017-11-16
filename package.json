@@ -6,7 +6,6 @@
   "scripts": {
     "build": "node_modules/.bin/webpack -p --config webpack.config.js",
     "start": "NODE_ENV=development node server.js",
-    "heroku": "NODE_ENV=production node server.js",
     "styleguide": "node_modules/.bin/styleguidist server",
     "styleguide:build": "node_modules/.bin/styleguidist build"
   },
