@@ -90,8 +90,6 @@ render(<LoginIcon iconId="login-icon" />);
 
 ### Reference
 
-![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/master/images/svg.png)
-
 Component Name  | Component Markup  
 --- | ---
 ApplyIcon | `<ApplyIcon />`
@@ -131,6 +129,7 @@ SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
 TwitterIcon | `<TwitterIcon />`
 XIcon | `<XIcon />`
+xCloseIcon | `<XCloseIcon />`
 BuildingIcon | `<BuildingIcon />`
 DownWedgeIcon | `<DownWedgeIcon />`
 LeftArrowIcon | `<LeftArrowIcon />`
