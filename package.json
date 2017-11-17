@@ -1,13 +1,14 @@
 {
   "name": "@nypl/dgx-svg-icons",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "React DGX SVG Icons",
   "main": "dist/index.min.js",
   "scripts": {
     "build": "node_modules/.bin/webpack -p --config webpack.config.js",
-    "start": "NODE_ENV=development node server.js"
+    "start": "NODE_ENV=development node server.js",
+    "styleguide": "node_modules/.bin/styleguidist server",
+    "styleguide:build": "node_modules/.bin/styleguidist build"
   },
-
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,8 +21,6 @@
   ],
   "bugs": {
     "url": "https://github.com/NYPL/dgx-svg-icons/issues"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "babel-core": "6.7.2",
@@ -36,6 +35,7 @@
     "react": "15.5.4",
     "react-dom": "15.5.4",
     "react-hot-loader": "1.3.0",
+    "react-styleguidist": "5.1.9",
     "sass-loader": "3.2.0",
     "style-loader": "0.13.0",
     "webpack": "1.12.14",
