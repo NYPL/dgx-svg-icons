@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.1
+> Minor patch bump for npm usage.
+
 ### v0.3.0
 > Added Styleguidist for a visual and interactive styleguide.
 
