@@ -36,10 +36,9 @@ render(
 ```
 
 ### Contributing to this repo
-* Prior to submitting a pull request, delete the `/dist` directory
-* From the command line rebuild `/dist` with `npm run build`
-* Add & commit the new `/dist` folder and make the pull request
-
+* From the command line rebuild the `/dist` directory with `npm run build`.
+* Optional but useful: rebuild the `/docs` styleguide with `npm run styleguide:build`.
+* Add & commit the new `/dist` and `/docs` folders and make the pull request.
 
 ### Props
 
@@ -87,6 +86,28 @@ Example:
 render(<LoginIcon iconId="login-icon" />);
 
 ```
+
+### Styleguide
+
+We are using [Styleguidist](https://react-styleguidist.js.org/) as an interactive styleguide for our icon components. To run the styleguide locally, run
+
+```
+    $ npm run styleguide
+```
+
+Alternatively, you can build the styleguide and start a local server in the generated `/docs` folder. To do so, run
+
+```
+    $ npm run styleguide:build
+```
+
+then run
+
+```
+    $ cd docs && python -m SimpleHTTPServer 4000
+```
+
+then go to `localhost:4000` to see the styleguide. Doing this will serve the same styleguide that Github Pages will server.
 
 ### Reference
 
