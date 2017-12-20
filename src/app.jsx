@@ -186,3 +186,9 @@ render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
 
 // Render the Twitter Icon
 render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
+
+// Render the Envelope Icon
+render(<EnvelopeIcon iconId="mail" />, document.getElementById('envelopeIcon'));
+
+// Render the Envelope Icon
+render(<LibraryCardIcon iconId="libraryCard" />, document.getElementById('libraryCardIcon'));

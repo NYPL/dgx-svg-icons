@@ -40,6 +40,8 @@ import LeftArrowIcon from './components/LeftArrowIcon.jsx';
 import RightArrowIcon from './components/RightArrowIcon.jsx';
 import FaceBookIcon from './components/FaceBookIcon.jsx';
 import TwitterIcon from './components/TwitterIcon.jsx';
+import FaceBookIcon from './components/EnvelopeIcon.jsx';
+import TwitterIcon from './components/LibraryCardIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -84,4 +86,6 @@ export {
   RightArrowIcon,
   FaceBookIcon,
   TwitterIcon,
+  EnvelopeIcon,
+  LibraryCardIcon,
 };
