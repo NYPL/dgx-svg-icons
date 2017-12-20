@@ -107,7 +107,7 @@ then run
     $ cd docs && python -m SimpleHTTPServer 4000
 ```
 
-then go to `localhost:4000` to see the styleguide. Doing this will serve the same styleguide that Github Pages will server.
+then go to `localhost:4000` to see the styleguide. Doing this will serve the same styleguide that Github Pages will serve up... like a hot-fudge sunday.
 
 ### Reference
 
@@ -152,6 +152,6 @@ TwitterIcon | `<TwitterIcon />`
 XIcon | `<XIcon />`
 xCloseIcon | `<XCloseIcon />`
 BuildingIcon | `<BuildingIcon />`
-DownWedgeIcon | `<DownWedgeIcon />`
+GenericWedgeIcon | `<GenericWedgeIcon />`
 LeftArrowIcon | `<LeftArrowIcon />`
 RightArrowIcon | `<RightArrowIcon />`
