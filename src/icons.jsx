@@ -35,11 +35,13 @@ import RadioActiveIcon from './components/RadioActiveIcon.jsx';
 import SmallDotClosedIcon from './components/SmallDotClosedIcon.jsx';
 import SmallDotOpenIcon from './components/SmallDotOpenIcon.jsx';
 import BuildingIcon from './components/BuildingIcon.jsx';
-import DownWedgeIcon from './components/DownWedgeIcon.jsx';
+import GenericWedgeIcon from './components/GenericWedgeIcon.jsx';
 import LeftArrowIcon from './components/LeftArrowIcon.jsx';
 import RightArrowIcon from './components/RightArrowIcon.jsx';
 import FaceBookIcon from './components/FaceBookIcon.jsx';
 import TwitterIcon from './components/TwitterIcon.jsx';
+import EnvelopeIcon from './components/EnvelopeIcon.jsx';
+import LibraryCardIcon from './components/LibraryCardIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -79,9 +81,11 @@ export {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
-  DownWedgeIcon,
+  GenericWedgeIcon,
   LeftArrowIcon,
   RightArrowIcon,
   FaceBookIcon,
   TwitterIcon,
+  EnvelopeIcon,
+  LibraryCardIcon,
 };

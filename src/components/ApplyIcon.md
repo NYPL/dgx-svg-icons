@@ -1,7 +1,6 @@
 ```
 <div>
   <ApplyIcon iconId="apply1" />
-  <ApplyIcon iconId="apply2" width="50" height="50" />
 </div>
 ```
 
