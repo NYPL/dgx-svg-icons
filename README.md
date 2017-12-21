@@ -125,6 +125,7 @@ DotsIcon | `<DotsIcon />`
 DownLoadIcon | `<DownLoadIcon />`
 DvdDiscIcon | `<DvdDiscIcon />`
 EReaderIcon | `<EReaderIcon />`
+EnvelopeIcon | `<EnvelopeIcon />`
 FaceBookIcon | `<FaceBookIcon />`
 FilterIcon | `<FilterIcon />`
 GridIcon | `<GridIcon />`
@@ -134,6 +135,7 @@ LionLogoIcon | `<LionLogoIcon />`
 LionLogoWithText | `<LionLogoWithText />`
 LionLogoWithTextInverse | `<LionLogoWithTextInverse />`
 ListIcon | `<ListIcon />`
+LibraryCardIcon | `<LibraryCardIcon />`
 LocatorIcon | `<LocatorIcon />`
 LoginIcon | `<LoginIcon />`
 LoginIconSolid | `<LoginIconSolid />`
