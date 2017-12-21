@@ -1,6 +1,5 @@
 ```
 <div>
-  <LionLogoIcon />
-  <LionLogoIcon width={50} height={50} />
+  <LionLogoIcon width="100" height="100" />
 </div>
 ```
