@@ -38,11 +38,13 @@ import {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
-  DownWedgeIcon,
+  GenericWedgeIcon,
   LeftArrowIcon,
   RightArrowIcon,
   FaceBookIcon,
   TwitterIcon,
+  EnvelopeIcon,
+  LibraryCardIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -175,8 +177,8 @@ render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
 // Render the Buiding Icon
 render(<BuildingIcon />, document.getElementById('bldgIcon'));
 
-// Render the Down Wedge Icon
-render(<DownWedgeIcon />, document.getElementById('downWedgeIcon'));
+// Render the Generic Wedge Icon
+render(<GenericWedgeIcon />, document.getElementById('GenericWedgeIcon'));
 
 // Render the Left Arrow Icon
 render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
@@ -186,3 +188,9 @@ render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
 
 // Render the Twitter Icon
 render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
+
+// Render the Envelope Icon
+render(<EnvelopeIcon iconId="mail" />, document.getElementById('envelopeIcon'));
+
+// Render the Envelope Icon
+render(<LibraryCardIcon iconId="libraryCard" />, document.getElementById('libraryCardIcon'));
