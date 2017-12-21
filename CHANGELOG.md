@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### v0.3.2
+> added new Icons: Envelope, Library Card
+> updates to many readme files, and to the wedge and building Icons
+> TODO: update the rest of the icons to align w/ the icons found in the design toolkit
+
 ### v0.3.1
 > Minor patch bump for npm usage.
 
