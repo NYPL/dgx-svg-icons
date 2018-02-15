@@ -10,6 +10,7 @@ import {
   XIcon,
   XCloseIcon,
   FilterIcon,
+  FilterCancelIcon,
   ListIcon,
   GridIcon,
   ApplyIcon,
@@ -88,6 +89,9 @@ render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon
 
 // Render Filter SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
+
+// Render Canecle Filter SVG icon
+render(<FilterCancelIcon />, document.getElementById('filterCancelIcon'));
 
 // Render List SVG Icon
 render(<ListIcon/>, document.getElementById('listIcon'));

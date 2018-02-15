@@ -7,6 +7,7 @@ import DotsIcon from './components/DotsIcon.jsx';
 import XIcon from './components/XIcon.jsx';
 import XCloseIcon from './components/XCloseIcon.jsx';
 import FilterIcon from './components/FilterIcon.jsx';
+import FilterCancelIcon from './components/FilterCancelIcon.jsx';
 import ListIcon from './components/ListIcon.jsx';
 import GridIcon from './components/GridIcon.jsx';
 import ApplyIcon from './components/ApplyIcon.jsx';
@@ -53,6 +54,7 @@ export {
   XIcon,
   XCloseIcon,
   FilterIcon,
+  FilterCancelIcon,
   ListIcon,
   GridIcon,
   ApplyIcon,
