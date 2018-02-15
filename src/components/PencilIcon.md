@@ -1,5 +1,5 @@
 ```
 <div>
-  <LogoutIcon />
+  <PencilIcon />
 </div>
 ```

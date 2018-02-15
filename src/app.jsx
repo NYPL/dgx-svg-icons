@@ -46,6 +46,7 @@ import {
   TwitterIcon,
   EnvelopeIcon,
   LibraryCardIcon,
+  PencilIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -198,3 +199,6 @@ render(<EnvelopeIcon iconId="mail" />, document.getElementById('envelopeIcon'));
 
 // Render the Envelope Icon
 render(<LibraryCardIcon iconId="libraryCard" />, document.getElementById('libraryCardIcon'));
+
+// Render the Pencil Icon
+render(<PencilIcon iconId="pencilIcon" />, document.getElementById('pencilIcon'));

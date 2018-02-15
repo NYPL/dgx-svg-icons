@@ -43,6 +43,7 @@ import FaceBookIcon from './components/FaceBookIcon.jsx';
 import TwitterIcon from './components/TwitterIcon.jsx';
 import EnvelopeIcon from './components/EnvelopeIcon.jsx';
 import LibraryCardIcon from './components/LibraryCardIcon.jsx';
+import PencilIcon from './components/PencilIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -90,4 +91,5 @@ export {
   TwitterIcon,
   EnvelopeIcon,
   LibraryCardIcon,
+  PencilIcon,
 };
