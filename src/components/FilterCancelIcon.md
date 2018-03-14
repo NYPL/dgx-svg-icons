@@ -1,0 +1,5 @@
+```
+<div>
+  <FilterCancelIcon />
+</div>
+```

@@ -1,21 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const LogoutIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
+const LogoutIcon = ({
+  viewBox,
+  height,
+  width,
+  title,
+  className,
+  style,
+  ariaHidden }) => (
+
   <svg
     viewBox={viewBox}
     height={height}
     width={width}
     className={`${className} svgIcon`}
     style={style}
-    fill={fill}
     aria-hidden={ariaHidden}
   >
     <title>{title}</title>
-    <g>
-      <path d="M23.084,9.91992a1.49987,1.49987,0,1,0-2.168,2.07324L23.79181,15H11a1.5,1.5,0,0,0,0,3H23.877L20.8291,21.30273a1.50035,1.50035,0,0,0,2.20508,2.03516l6.3252-6.85645Z" />
-      <path d="M15.97949,25H7V7h9.21875a1.5,1.5,0,0,0,0-3H4V28H15.97949a1.5,1.5,0,0,0,0-3Z" />
-    </g>
+    <path d="M35.951 9.268a2.826 2.826 0 1 0-4.084 3.906l5.418 5.664H13.187a2.826 2.826 0 0 0 0 5.652h24.258l-5.742 6.222a2.826 2.826 0 0 0 4.154 3.834l11.916-12.917z"/><path d="M45.173 39.56H5.652V5.653h17.366a2.826 2.826 0 0 0 0-5.652H0v45.212h45.173a2.826 2.826 0 0 0 0-5.651z"/>
   </svg>
 );
 
@@ -25,17 +29,16 @@ LogoutIcon.propTypes = {
   height: PropTypes.string,
   width: PropTypes.string,
   viewBox: PropTypes.string,
-  fill: PropTypes.string,
   style: PropTypes.object,
   ariaHidden: PropTypes.bool,
 };
 
 LogoutIcon.defaultProps = {
   className: 'logoutIcon',
+  height: '45.212',
   title: 'NYPL Logout SVG Icon',
-  width: '16',
-  height: '32',
-  viewBox: '0 0 32 32',
+  viewBox: '0 0 47.99 45.212',
+  width: '47.99',
 };
 
 export default LogoutIcon;

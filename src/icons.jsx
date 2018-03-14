@@ -7,6 +7,7 @@ import DotsIcon from './components/DotsIcon.jsx';
 import XIcon from './components/XIcon.jsx';
 import XCloseIcon from './components/XCloseIcon.jsx';
 import FilterIcon from './components/FilterIcon.jsx';
+import FilterCancelIcon from './components/FilterCancelIcon.jsx';
 import ListIcon from './components/ListIcon.jsx';
 import GridIcon from './components/GridIcon.jsx';
 import ApplyIcon from './components/ApplyIcon.jsx';
@@ -42,6 +43,7 @@ import FaceBookIcon from './components/FaceBookIcon.jsx';
 import TwitterIcon from './components/TwitterIcon.jsx';
 import EnvelopeIcon from './components/EnvelopeIcon.jsx';
 import LibraryCardIcon from './components/LibraryCardIcon.jsx';
+import PencilIcon from './components/PencilIcon.jsx';
 
 export {
   LionLogoIcon,
@@ -53,6 +55,7 @@ export {
   XIcon,
   XCloseIcon,
   FilterIcon,
+  FilterCancelIcon,
   ListIcon,
   GridIcon,
   ApplyIcon,
@@ -88,4 +91,5 @@ export {
   TwitterIcon,
   EnvelopeIcon,
   LibraryCardIcon,
+  PencilIcon,
 };
