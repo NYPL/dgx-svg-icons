@@ -3,6 +3,7 @@
 [![GitHub version](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons.svg)](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons)
 
 SVG icons used at NYPL Digital as React Components.
+Version 0.3.3
 
 ### Install
 
@@ -46,15 +47,15 @@ There are props that all components use:
 
 prop | type
 --- | ---
-viewBox | string
-height | string
-width | string
-title | string
-className | string
 ariaHidden | boolean
-preserveAspectRatio | string
+className | string
+height | string
 iconId | string
+preserveAspectRatio | string
 svgRole | string
+title | string
+width | string
+viewBox | string
 
 By default, the `defaultProps` generate:
 
@@ -128,6 +129,7 @@ EReaderIcon | `<EReaderIcon />`
 EnvelopeIcon | `<EnvelopeIcon />`
 FaceBookIcon | `<FaceBookIcon />`
 FilterIcon | `<FilterIcon />`
+FilterCancelIcon | `<FilterCancelIcon />`
 GridIcon | `<GridIcon />`
 LargePrintIcon | `<LargePrintIcon />`
 LeftWedgeIcon | `<LeftWedgeIcon />`

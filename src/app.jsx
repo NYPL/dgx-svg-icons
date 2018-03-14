@@ -10,6 +10,7 @@ import {
   XIcon,
   XCloseIcon,
   FilterIcon,
+  FilterCancelIcon,
   ListIcon,
   GridIcon,
   ApplyIcon,
@@ -45,6 +46,7 @@ import {
   TwitterIcon,
   EnvelopeIcon,
   LibraryCardIcon,
+  PencilIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -88,6 +90,9 @@ render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon
 
 // Render Filter SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
+
+// Render Canecle Filter SVG icon
+render(<FilterCancelIcon />, document.getElementById('filterCancelIcon'));
 
 // Render List SVG Icon
 render(<ListIcon/>, document.getElementById('listIcon'));
@@ -194,3 +199,6 @@ render(<EnvelopeIcon iconId="mail" />, document.getElementById('envelopeIcon'));
 
 // Render the Envelope Icon
 render(<LibraryCardIcon iconId="libraryCard" />, document.getElementById('libraryCardIcon'));
+
+// Render the Pencil Icon
+render(<PencilIcon iconId="pencilIcon" />, document.getElementById('pencilIcon'));
