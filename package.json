@@ -1,6 +1,6 @@
 {
   "name": "@nypl/dgx-svg-icons",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "React DGX SVG Icons",
   "main": "dist/index.min.js",
   "scripts": {
@@ -9,6 +9,25 @@
     "styleguide": "node_modules/.bin/styleguidist server",
     "styleguide:build": "node_modules/.bin/styleguidist build"
   },
+  "author": "NYPL Digital Experience",
+"contributors": [
+  {
+    "name": "Edwin Guzman",
+    "email": "edwinguzman@nypl.org"
+  },
+  {
+    "name": "Rafael Hernandez",
+    "email": "rafaelhernandez@nypl.org"
+  },
+  {
+    "name": "Kang Peng",
+    "email": "kangtingpeng@nypl.org"
+  },
+  {
+    "name": "Ricardo E. Galvez",
+    "email": "ricardogalvez@nypl.org"
+  }
+],
   "license": "MIT",
   "repository": {
     "type": "git",
