@@ -1,5 +1,10 @@
 ## CHANGELOG
 
+### v0.3.4
+> added shopping bag icon
+> fixed incorrect attributes on a couple icons
+> fixed misnamed class on library card icon
+
 ### v0.3.3
 > added a cancel filtering icon
 > added contributors to package.json
