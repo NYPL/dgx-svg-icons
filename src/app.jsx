@@ -47,6 +47,7 @@ import {
   EnvelopeIcon,
   LibraryCardIcon,
   PencilIcon,
+  ShoppingBagIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -202,3 +203,6 @@ render(<LibraryCardIcon iconId="libraryCard" />, document.getElementById('librar
 
 // Render the Pencil Icon
 render(<PencilIcon iconId="pencilIcon" />, document.getElementById('pencilIcon'));
+
+// Render the Shopping Bag Icon
+render(<ShoppingBagIcon iconId="shoppingBagIcon" />, document.getElementById('shoppingBagIcon'));
