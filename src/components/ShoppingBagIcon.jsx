@@ -41,7 +41,7 @@ ShoppingBagIcon.defaultProps = {
   className: 'shopping-bag-icon',
   height: '45.274',
   preserveAspectRatio: 'xMidYMid meet',
-  title: 'mail',
+  title: 'shop',
   viewBox: '0 0 45.274 57.875',
   width: '57.875',
 };
