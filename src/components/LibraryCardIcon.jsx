@@ -39,7 +39,7 @@ LibraryCardIcon.propTypes = {
 
 LibraryCardIcon.defaultProps = {
   ariaHidden: true,
-  className: 'envelope-icon',
+  className: 'library-card-icon',
   height: '46.279',
   preserveAspectRatio: 'xMidYMid meet',
   title: 'mail',
