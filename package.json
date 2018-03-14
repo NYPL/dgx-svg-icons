@@ -10,7 +10,7 @@
     "styleguide:build": "node_modules/.bin/styleguidist build"
   },
   "author": "NYPL Digital Experience",
-"contributors": [
+  "contributors": [
   {
     "name": "Edwin Guzman",
     "email": "edwinguzman@nypl.org"
