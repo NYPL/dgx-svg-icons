@@ -42,7 +42,7 @@ LibraryCardIcon.defaultProps = {
   className: 'library-card-icon',
   height: '46.279',
   preserveAspectRatio: 'xMidYMid meet',
-  title: 'mail',
+  title: 'library-card',
   viewBox: '0 0 68.377 46.279',
   width: '68.377',
 };
