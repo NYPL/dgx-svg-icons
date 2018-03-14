@@ -3,6 +3,7 @@
 [![GitHub version](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons.svg)](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons)
 
 SVG icons used at NYPL Digital as React Components.
+Version 0.3.3
 
 ### Install
 

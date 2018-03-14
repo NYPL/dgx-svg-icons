@@ -1,5 +1,9 @@
 ## CHANGELOG
 
+### v0.3.3
+> added a cancel filtering icon
+> added contributors to package.json
+
 ### v0.3.2
 > added new Icons: Envelope, Library Card
 > updates to many readme files, and to the wedge and building Icons
