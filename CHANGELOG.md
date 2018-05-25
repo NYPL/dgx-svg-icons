@@ -1,4 +1,7 @@
 ## CHANGELOG
+### v0.3.5
+> added missing social media icons: youtube, tumblr & instagram
+> 🛠
 
 ### v0.3.4
 > added shopping bag icon

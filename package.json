@@ -1,6 +1,6 @@
 {
   "name": "@nypl/dgx-svg-icons",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "React DGX SVG Icons",
   "main": "dist/index.min.js",
   "scripts": {
@@ -16,16 +16,16 @@
       "email": "edwinguzman@nypl.org"
     },
     {
+      "name": "Ricardo E. Galvez",
+      "email": "ricardogalvez@nypl.org"
+    },
+    {
       "name": "Rafael Hernandez",
       "email": "rafaelhernandez@nypl.org"
     },
     {
       "name": "Kang Peng",
       "email": "kangtingpeng@nypl.org"
-    },
-    {
-      "name": "Ricardo E. Galvez",
-      "email": "ricardogalvez@nypl.org"
     }
   ],
   "license": "MIT",
