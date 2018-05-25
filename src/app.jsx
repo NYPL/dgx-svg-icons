@@ -44,6 +44,9 @@ import {
   RightArrowIcon,
   FaceBookIcon,
   TwitterIcon,
+  InstagramIcon,
+  TumblrIcon,
+  YoutubeIcon,
   EnvelopeIcon,
   LibraryCardIcon,
   PencilIcon,
@@ -88,6 +91,18 @@ render(<XCloseIcon iconId="close" />, document.getElementById('xCloseIcon'));
 
 // Render the Facebook Icon
 render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon'));
+
+// Render the Twitter Icon
+render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
+
+// Render the Instagram Icon
+render(<InstagramIcon iconId="instagram" />, document.getElementById('instagramIcon'));
+
+// Render the Youtube Icon
+render(<YoutubeIcon iconId="youtube" />, document.getElementById('youtubeIcon'));
+
+// Render the Tumblr Icon
+render(<TumblrIcon iconId="tumblr" />, document.getElementById('tumblrIcon'));
 
 // Render Filter SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
@@ -191,9 +206,6 @@ render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
 
 // Render the Wedge Down Icon
 render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
-
-// Render the Twitter Icon
-render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
 
 // Render the Envelope Icon
 render(<EnvelopeIcon iconId="mail" />, document.getElementById('envelopeIcon'));

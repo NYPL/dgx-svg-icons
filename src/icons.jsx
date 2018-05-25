@@ -41,6 +41,9 @@ import LeftArrowIcon from './components/LeftArrowIcon.jsx';
 import RightArrowIcon from './components/RightArrowIcon.jsx';
 import FaceBookIcon from './components/FaceBookIcon.jsx';
 import TwitterIcon from './components/TwitterIcon.jsx';
+import TumblrIcon from './components/TumblrIcon.jsx';
+import YoutubeIcon from './components/YoutubeIcon.jsx';
+import InstagramIcon from './components/InstagramIcon.jsx';
 import EnvelopeIcon from './components/EnvelopeIcon.jsx';
 import LibraryCardIcon from './components/LibraryCardIcon.jsx';
 import PencilIcon from './components/PencilIcon.jsx';
@@ -89,7 +92,10 @@ export {
   LeftArrowIcon,
   RightArrowIcon,
   FaceBookIcon,
+  InstagramIcon,
   TwitterIcon,
+  TumblrIcon,
+  YoutubeIcon,
   EnvelopeIcon,
   LibraryCardIcon,
   PencilIcon,
