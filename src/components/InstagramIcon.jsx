@@ -39,7 +39,7 @@ InstagramIcon.propTypes = {
 
 InstagramIcon.defaultProps = {
   ariaHidden: true,
-  className: 'face-book-icon',
+  className: 'instagram-icon',
   height: '47.832',
   preserveAspectRatio: 'xMidYMid meet',
   title: 'Instagram',

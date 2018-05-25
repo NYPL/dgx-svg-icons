@@ -40,7 +40,7 @@ YoutubeIcon.propTypes = {
 
 YoutubeIcon.defaultProps = {
   ariaHidden: true,
-  className: 'face-book-icon',
+  className: 'youtube-icon',
   height: '47.998',
   preserveAspectRatio: 'xMidYMid meet',
   title: 'Youtube',
