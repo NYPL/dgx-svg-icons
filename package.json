@@ -11,23 +11,23 @@
   },
   "author": "NYPL Digital Experience",
   "contributors": [
-  {
-    "name": "Edwin Guzman",
-    "email": "edwinguzman@nypl.org"
-  },
-  {
-    "name": "Rafael Hernandez",
-    "email": "rafaelhernandez@nypl.org"
-  },
-  {
-    "name": "Kang Peng",
-    "email": "kangtingpeng@nypl.org"
-  },
-  {
-    "name": "Ricardo E. Galvez",
-    "email": "ricardogalvez@nypl.org"
-  }
-],
+    {
+      "name": "Edwin Guzman",
+      "email": "edwinguzman@nypl.org"
+    },
+    {
+      "name": "Rafael Hernandez",
+      "email": "rafaelhernandez@nypl.org"
+    },
+    {
+      "name": "Kang Peng",
+      "email": "kangtingpeng@nypl.org"
+    },
+    {
+      "name": "Ricardo E. Galvez",
+      "email": "ricardogalvez@nypl.org"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
