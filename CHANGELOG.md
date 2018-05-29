@@ -1,4 +1,8 @@
 ## CHANGELOG
+
+### v0.3.6
+> Adding missing /dist folder.
+
 ### v0.3.5
 > added missing social media icons: youtube, tumblr & instagram
 > 🛠
