@@ -1,7 +1,7 @@
 ## CHANGELOG
 
 ### v0.3.7
-> Adding focusable attribute to GenericWedgeIcon.
+> Adding focusable attribute to the icons that Header Component uses.
 
 ### v0.3.6
 > Adding missing /dist folder.
