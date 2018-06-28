@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MenuIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
+const MenuIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden, focusable }) => (
   <svg
     viewBox={viewBox}
     width={width}
@@ -10,6 +10,7 @@ const MenuIcon = ({ viewBox, height, width, title, className, style, fill, ariaH
     fill={fill}
     style={style}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M26.22029,10.40244H5.77971a1.09221,1.09221,0,1,1,0-2.18441H26.22029A1.09221,1.09221,0,1,1,26.22029,10.40244Z" />
@@ -27,6 +28,7 @@ MenuIcon.propTypes = {
   fill: PropTypes.string,
   style: PropTypes.object,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 MenuIcon.defaultProps = {

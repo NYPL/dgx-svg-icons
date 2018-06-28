@@ -15,6 +15,7 @@ class LionLogoIcon extends React.Component {
         viewBox={this.getViewBox()}
         style={this.props.style}
         aria-hidden={this.props.ariaHidden}
+        focusable={this.props.focusable}
       >
         <title>{this.props.title}</title>
         <ellipse cx="12.503" cy="12.485" rx="12.251" ry="12.24" fill={this.props.fill} />
@@ -66,6 +67,7 @@ LionLogoIcon.propTypes = {
   inverseFill: PropTypes.string,
   style: PropTypes.object,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 LionLogoIcon.defaultProps = {

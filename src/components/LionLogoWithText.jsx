@@ -10,6 +10,7 @@ const LionLogoWithText = ({
   ariaHidden,
   title,
   fill,
+  focusable,
 }) => (
   <svg
     className={`${className} svgIcon`}
@@ -18,6 +19,7 @@ const LionLogoWithText = ({
     viewBox={viewBox}
     style={style}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <g className={`${className}-text`}>
@@ -74,6 +76,7 @@ LionLogoWithText.propTypes = {
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
   style: PropTypes.object,
+  focusable: PropTypes.bool,
 };
 
 LionLogoWithText.defaultProps = {
