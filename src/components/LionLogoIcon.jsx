@@ -73,8 +73,8 @@ LionLogoIcon.defaultProps = {
   title: 'NYPL Lion Logo',
   ref: 'nyplLionLogoIcon',
   type: '',
-  height: 25,
-  width: 25,
+  height: '50',
+  width: '50',
   fill: '#FFF',
   inverseFill: '#000',
 };

@@ -1,0 +1,5 @@
+```
+<div>
+  <LogoutIcon />
+</div>
+```
