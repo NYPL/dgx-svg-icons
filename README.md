@@ -1,14 +1,16 @@
 # NYPL SVG Icons (Deprecated Repo)
 ***See: [github: https://github.com/NYPL/nypl-svg-icons](https://github.com/NYPL/nypl-svg-icons)***
 
+[![GitHub version](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons.svg)](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons)
+
 SVG icons used at NYPL Digital as React Components.
+Version 0.3.6
+
+This project uses Styleguidist to generate a page with all the available icons and their properties here: [https://nypl.github.io/dgx-svg-icons/]( https://nypl.github.io/dgx-svg-icons/)
 
 ### Install
 
-Not an npm module at the moment but it can be added in the dependencies in package.json as:
-
-`"dgx-svg-icons": "git+ssh://bitbucket.org/NYPL/dgx-svg-icons.git#master",`
-
+`npm i --save @nypl/dgx-svg-icons`
 
 ### Demo
 
@@ -38,10 +40,9 @@ render(
 ```
 
 ### Contributing to this repo
-* Prior to submitting a pull request, delete the `/dist` directory
-* From the command line rebuild `/dist` with `npm run build`
-* Add & commit the new `/dist` folder and make the pull request
-
+* From the command line rebuild the `/dist` directory with `npm run build`.
+* Optional but useful: rebuild the `/docs` styleguide with `npm run styleguide:build`.
+* Add & commit the new `/dist` and `/docs` folders and make the pull request.
 
 ### Props
 
@@ -49,15 +50,15 @@ There are props that all components use:
 
 prop | type
 --- | ---
-viewBox | string
-height | string
-width | string
-title | string
-className | string
 ariaHidden | boolean
-preserveAspectRatio | string
+className | string
+height | string
 iconId | string
+preserveAspectRatio | string
 svgRole | string
+title | string
+width | string
+viewBox | string
 
 By default, the `defaultProps` generate:
 
@@ -90,9 +91,29 @@ render(<LoginIcon iconId="login-icon" />);
 
 ```
 
-### Reference
+### Styleguide
 
-![Apply Icon](https://bitbucket.org/NYPL/dgx-svg-icons/raw/master/images/svg.png)
+We are using [Styleguidist](https://react-styleguidist.js.org/) as an interactive styleguide for our icon components. To run the styleguide locally, run
+
+```
+    $ npm run styleguide
+```
+
+Alternatively, you can build the styleguide and start a local server in the generated `/docs` folder. To do so, run
+
+```
+    $ npm run styleguide:build
+```
+
+then run
+
+```
+    $ cd docs && python -m SimpleHTTPServer 4000
+```
+
+then go to `localhost:4000` to see the styleguide. Doing this will serve the same styleguide that Github Pages will serve up... like a hot-fudge sunday.
+
+### Reference
 
 Component Name  | Component Markup  
 --- | ---
@@ -108,8 +129,10 @@ DotsIcon | `<DotsIcon />`
 DownLoadIcon | `<DownLoadIcon />`
 DvdDiscIcon | `<DvdDiscIcon />`
 EReaderIcon | `<EReaderIcon />`
+EnvelopeIcon | `<EnvelopeIcon />`
 FaceBookIcon | `<FaceBookIcon />`
 FilterIcon | `<FilterIcon />`
+FilterCancelIcon | `<FilterCancelIcon />`
 GridIcon | `<GridIcon />`
 LargePrintIcon | `<LargePrintIcon />`
 LeftWedgeIcon | `<LeftWedgeIcon />`
@@ -117,6 +140,7 @@ LionLogoIcon | `<LionLogoIcon />`
 LionLogoWithText | `<LionLogoWithText />`
 LionLogoWithTextInverse | `<LionLogoWithTextInverse />`
 ListIcon | `<ListIcon />`
+LibraryCardIcon | `<LibraryCardIcon />`
 LocatorIcon | `<LocatorIcon />`
 LoginIcon | `<LoginIcon />`
 LoginIconSolid | `<LoginIconSolid />`
@@ -133,7 +157,8 @@ SmallDotOpenIcon | `<SmallDotOpenIcon />`
 TagIcon | `<TagIcon />`
 TwitterIcon | `<TwitterIcon />`
 XIcon | `<XIcon />`
+xCloseIcon | `<XCloseIcon />`
 BuildingIcon | `<BuildingIcon />`
-DownWedgeIcon | `<DownWedgeIcon />`
+GenericWedgeIcon | `<GenericWedgeIcon />`
 LeftArrowIcon | `<LeftArrowIcon />`
 RightArrowIcon | `<RightArrowIcon />`

@@ -8,7 +8,9 @@ import {
   BookIcon,
   DotsIcon,
   XIcon,
+  XCloseIcon,
   FilterIcon,
+  FilterCancelIcon,
   ListIcon,
   GridIcon,
   ApplyIcon,
@@ -37,11 +39,18 @@ import {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
-  DownWedgeIcon,
+  GenericWedgeIcon,
   LeftArrowIcon,
   RightArrowIcon,
   FaceBookIcon,
   TwitterIcon,
+  InstagramIcon,
+  TumblrIcon,
+  YoutubeIcon,
+  EnvelopeIcon,
+  LibraryCardIcon,
+  PencilIcon,
+  ShoppingBagIcon,
 } from './icons';
 
 // Stylesheet used for development mode
@@ -78,11 +87,28 @@ render(<DotsIcon />, document.getElementById('dotsIcon'));
 // Render Dots SVG Icon
 render(<XIcon />, document.getElementById('XIcon'));
 
+render(<XCloseIcon iconId="close" />, document.getElementById('xCloseIcon'));
+
 // Render the Facebook Icon
 render(<FaceBookIcon iconId="facebook" />, document.getElementById('faceBookIcon'));
 
+// Render the Twitter Icon
+render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
+
+// Render the Instagram Icon
+render(<InstagramIcon iconId="instagram" />, document.getElementById('instagramIcon'));
+
+// Render the Youtube Icon
+render(<YoutubeIcon iconId="youtube" />, document.getElementById('youtubeIcon'));
+
+// Render the Tumblr Icon
+render(<TumblrIcon iconId="tumblr" />, document.getElementById('tumblrIcon'));
+
 // Render Filter SVG Icon
 render(<FilterIcon />, document.getElementById('filterIcon'));
+
+// Render Canecle Filter SVG icon
+render(<FilterCancelIcon />, document.getElementById('filterCancelIcon'));
 
 // Render List SVG Icon
 render(<ListIcon/>, document.getElementById('listIcon'));
@@ -172,8 +198,8 @@ render(<SmallDotOpenIcon />, document.getElementById('smallDotOpenIcon'));
 // Render the Buiding Icon
 render(<BuildingIcon />, document.getElementById('bldgIcon'));
 
-// Render the Down Wedge Icon
-render(<DownWedgeIcon />, document.getElementById('downWedgeIcon'));
+// Render the Generic Wedge Icon
+render(<GenericWedgeIcon />, document.getElementById('GenericWedgeIcon'));
 
 // Render the Left Arrow Icon
 render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
@@ -181,5 +207,14 @@ render(<LeftArrowIcon />, document.getElementById('leftArrowIcon'));
 // Render the Wedge Down Icon
 render(<RightArrowIcon />, document.getElementById('rightArrowIcon'));
 
-// Render the Twitter Icon
-render(<TwitterIcon iconId="twitter" />, document.getElementById('twitterIcon'));
+// Render the Envelope Icon
+render(<EnvelopeIcon iconId="mail" />, document.getElementById('envelopeIcon'));
+
+// Render the Envelope Icon
+render(<LibraryCardIcon iconId="libraryCard" />, document.getElementById('libraryCardIcon'));
+
+// Render the Pencil Icon
+render(<PencilIcon iconId="pencilIcon" />, document.getElementById('pencilIcon'));
+
+// Render the Shopping Bag Icon
+render(<ShoppingBagIcon iconId="shoppingBagIcon" />, document.getElementById('shoppingBagIcon'));

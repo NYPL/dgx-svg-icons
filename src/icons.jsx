@@ -5,7 +5,9 @@ import CarouselCircleIcon from './components/CarouselCircleIcon.jsx';
 import BookIcon from './components/BookIcon.jsx';
 import DotsIcon from './components/DotsIcon.jsx';
 import XIcon from './components/XIcon.jsx';
+import XCloseIcon from './components/XCloseIcon.jsx';
 import FilterIcon from './components/FilterIcon.jsx';
+import FilterCancelIcon from './components/FilterCancelIcon.jsx';
 import ListIcon from './components/ListIcon.jsx';
 import GridIcon from './components/GridIcon.jsx';
 import ApplyIcon from './components/ApplyIcon.jsx';
@@ -34,11 +36,18 @@ import RadioActiveIcon from './components/RadioActiveIcon.jsx';
 import SmallDotClosedIcon from './components/SmallDotClosedIcon.jsx';
 import SmallDotOpenIcon from './components/SmallDotOpenIcon.jsx';
 import BuildingIcon from './components/BuildingIcon.jsx';
-import DownWedgeIcon from './components/DownWedgeIcon.jsx';
+import GenericWedgeIcon from './components/GenericWedgeIcon.jsx';
 import LeftArrowIcon from './components/LeftArrowIcon.jsx';
 import RightArrowIcon from './components/RightArrowIcon.jsx';
 import FaceBookIcon from './components/FaceBookIcon.jsx';
 import TwitterIcon from './components/TwitterIcon.jsx';
+import TumblrIcon from './components/TumblrIcon.jsx';
+import YoutubeIcon from './components/YoutubeIcon.jsx';
+import InstagramIcon from './components/InstagramIcon.jsx';
+import EnvelopeIcon from './components/EnvelopeIcon.jsx';
+import LibraryCardIcon from './components/LibraryCardIcon.jsx';
+import PencilIcon from './components/PencilIcon.jsx';
+import ShoppingBagIcon from './components/ShoppingBagIcon.jsx'
 
 export {
   LionLogoIcon,
@@ -48,7 +57,9 @@ export {
   BookIcon,
   DotsIcon,
   XIcon,
+  XCloseIcon,
   FilterIcon,
+  FilterCancelIcon,
   ListIcon,
   GridIcon,
   ApplyIcon,
@@ -77,9 +88,16 @@ export {
   SmallDotClosedIcon,
   SmallDotOpenIcon,
   BuildingIcon,
-  DownWedgeIcon,
+  GenericWedgeIcon,
   LeftArrowIcon,
   RightArrowIcon,
   FaceBookIcon,
+  InstagramIcon,
   TwitterIcon,
+  TumblrIcon,
+  YoutubeIcon,
+  EnvelopeIcon,
+  LibraryCardIcon,
+  PencilIcon,
+  ShoppingBagIcon,
 };
