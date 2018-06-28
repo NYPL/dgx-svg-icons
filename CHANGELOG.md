@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.7
+> Adding focusable attribute to GenericWedgeIcon.
+
 ### v0.3.6
 > Adding missing /dist folder.
 
