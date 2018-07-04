@@ -11,6 +11,7 @@ const GenericWedgeIcon = ({
   preserveAspectRatio,
   iconId,
   svgRole,
+  focusable,
 }) => (
   <svg
     viewBox={viewBox}
@@ -21,9 +22,10 @@ const GenericWedgeIcon = ({
     preserveAspectRatio={preserveAspectRatio}
     aria-labelledby={iconId}
     role={svgRole}
+    focusable={focusable}
   >
     <title id={iconId}>{title}</title>
-    <path d="M17.749 26.818L6.205 15.288 17.832 3.592a2.075 2.075 0 0 0 .01-2.901 2.278 2.278 0 0 0-3.243-.026L0 15.225 14.693 29.87a2.16 2.16 0 0 0 3.065-.016 2.16 2.16 0 0 0-.01-3.036z"/>
+    <path d="M17.749 26.818L6.205 15.288 17.832 3.592a2.075 2.075 0 0 0 .01-2.901 2.278 2.278 0 0 0-3.243-.026L0 15.225 14.693 29.87a2.16 2.16 0 0 0 3.065-.016 2.16 2.16 0 0 0-.01-3.036z" />
   </svg>
 );
 
@@ -39,6 +41,7 @@ GenericWedgeIcon.propTypes = {
   preserveAspectRatio: PropTypes.string,
   svgRole: PropTypes.string,
   iconId: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 GenericWedgeIcon.defaultProps = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const SearchIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden }) => (
+const SearchIcon = ({ viewBox, height, width, title, className, style, fill, ariaHidden, focusable }) => (
   <svg
     viewBox={viewBox}
     width={width}
@@ -10,6 +10,7 @@ const SearchIcon = ({ viewBox, height, width, title, className, style, fill, ari
     fill={fill}
     style={style}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M25.26014,23.627l-3.76-3.75948a8.53632,8.53632,0,1,0-2.07145,1.85393l3.86877,3.86822A1.38781,1.38781,0,0,0,25.26014,23.627ZM9.109,14.52943a5.75012,5.75012,0,1,1,5.75012,5.74948A5.75662,5.75662,0,0,1,9.109,14.52943Z" />
@@ -25,6 +26,7 @@ SearchIcon.propTypes = {
   fill: PropTypes.string,
   style: PropTypes.object,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 SearchIcon.defaultProps = {

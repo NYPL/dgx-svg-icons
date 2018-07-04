@@ -8,7 +8,8 @@ const LogoutIcon = ({
   title,
   className,
   style,
-  ariaHidden }) => (
+  ariaHidden,
+  focusable }) => (
 
   <svg
     viewBox={viewBox}
@@ -17,9 +18,11 @@ const LogoutIcon = ({
     className={`${className} svgIcon`}
     style={style}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
-    <path d="M35.951 9.268a2.826 2.826 0 1 0-4.084 3.906l5.418 5.664H13.187a2.826 2.826 0 0 0 0 5.652h24.258l-5.742 6.222a2.826 2.826 0 0 0 4.154 3.834l11.916-12.917z"/><path d="M45.173 39.56H5.652V5.653h17.366a2.826 2.826 0 0 0 0-5.652H0v45.212h45.173a2.826 2.826 0 0 0 0-5.651z"/>
+    <path d="M35.951 9.268a2.826 2.826 0 1 0-4.084 3.906l5.418 5.664H13.187a2.826 2.826 0 0 0 0 5.652h24.258l-5.742 6.222a2.826 2.826 0 0 0 4.154 3.834l11.916-12.917z" />
+    <path d="M45.173 39.56H5.652V5.653h17.366a2.826 2.826 0 0 0 0-5.652H0v45.212h45.173a2.826 2.826 0 0 0 0-5.651z" />
   </svg>
 );
 
@@ -31,6 +34,7 @@ LogoutIcon.propTypes = {
   viewBox: PropTypes.string,
   style: PropTypes.object,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 LogoutIcon.defaultProps = {

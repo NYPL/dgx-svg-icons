@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const RightWedgeIcon = ({ ariaHidden, className, fill, height, title, viewBox, width }) => (
+const RightWedgeIcon = ({ ariaHidden, className, fill, height, title, viewBox, width, focusable }) => (
   <svg
     aria-hidden={ariaHidden}
     className={`${className} svgIcon`}
@@ -9,6 +9,7 @@ const RightWedgeIcon = ({ ariaHidden, className, fill, height, title, viewBox, w
     height={height}
     viewBox={viewBox}
     width={width}
+    focusable={focusable}
   >
     <title>{title}</title>
     <polygon points="13 8.437 20.563 16 13 23.563 11.593 22.155 17.748 16 11.593 9.845 13 8.437" />
@@ -23,6 +24,7 @@ RightWedgeIcon.propTypes = {
   title: PropTypes.string,
   width: PropTypes.string,
   viewBox: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 RightWedgeIcon.defaultProps = {
