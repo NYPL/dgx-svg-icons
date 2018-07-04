@@ -18,7 +18,7 @@ const renderSvg = (size) => {
   );
 };
 
-const LocatorIcon = ({ viewBox, height, width, title, className, size, style, fill, ariaHidden }) => (
+const LocatorIcon = ({ viewBox, height, width, title, className, size, style, fill, ariaHidden, focusable }) => (
   <svg
     width={width}
     height={height}
@@ -27,6 +27,7 @@ const LocatorIcon = ({ viewBox, height, width, title, className, size, style, fi
     style={style}
     fill={fill}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     {renderSvg(size)}
@@ -43,6 +44,7 @@ LocatorIcon.propTypes = {
   style: PropTypes.object,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 LocatorIcon.defaultProps = {
