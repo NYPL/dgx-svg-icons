@@ -11,6 +11,7 @@ const RightArrowIcon = ({
   preserveAspectRatio,
   iconId,
   svgRole,
+  focusable,
 }) => (
   <svg
     viewBox={viewBox}
@@ -21,6 +22,7 @@ const RightArrowIcon = ({
     preserveAspectRatio={preserveAspectRatio}
     aria-labelledby={iconId}
     role={svgRole}
+    focusable={focusable}
   >
     <title id={iconId}>{title}</title>
     <polygon points="16.959 25.998 27.298 15.707 16.959 5.417 15.026 7.397 22.08 14.548 4.688 14.548 4.687 16.963 22.08 16.963 15.026 24.065 16.959 25.998" />
@@ -39,6 +41,7 @@ RightArrowIcon.propTypes = {
   preserveAspectRatio: PropTypes.string,
   svgRole: PropTypes.string,
   iconId: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 RightArrowIcon.defaultProps = {

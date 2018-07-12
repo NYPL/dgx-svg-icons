@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const FilterIcon = ({ ariaHidden, className, fill, height, title, viewBox, width }) => (
+const FilterIcon = ({ ariaHidden, className, fill, height, title, viewBox, width, focusable }) => (
   <svg
     aria-hidden={ariaHidden}
     className={`${className} svgIcon`}
@@ -9,6 +9,7 @@ const FilterIcon = ({ ariaHidden, className, fill, height, title, viewBox, width
     height={height}
     viewBox={viewBox}
     width={width}
+    focusable={focusable}
   >
     <title>{title}</title>
     <g>
@@ -31,6 +32,7 @@ FilterIcon.propTypes = {
   title: PropTypes.string,
   width: PropTypes.string,
   viewBox: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 FilterIcon.defaultProps = {

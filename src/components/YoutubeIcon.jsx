@@ -10,6 +10,7 @@ const YoutubeIcon = ({
     title,
     viewBox,
     width,
+    focusable,
   }) => (
   <svg
     aria-hidden={ariaHidden}
@@ -20,6 +21,7 @@ const YoutubeIcon = ({
     title={title}
     viewBox={viewBox}
     width={width}
+    focusable={focusable}
   >
   <title id={iconId}>{title}</title>
       <path d="M13.746 0l-3.243 6.43L7.259 0H3.123l5.845 10.19.035-.024v7.833h3v-7.833l.032.023L17.882 0zM22.502 6a1.52 1.52 0 0 1 1.5 1.5v6a1.5 1.5 0 0 1-3 0v-6a1.518 1.518 0 0 1 1.5-1.5zm0-3a4.512 4.512 0 0 0-4.5 4.5v6a4.5 4.5 0 0 0 9 0v-6a4.512 4.512 0 0 0-4.5-4.5zM36.002 3v11.812c-1.31 1.09-3 1.746-3-2.142V3h-3v10.28h.006c.044 2.481.568 6.946 5.994 3.316v1.403h3V3zM40.501 32.999a1.499 1.499 0 0 0-1.5 1.5v1.5h3v-1.5a1.5 1.5 0 0 0-1.5-1.5zM27.002 34.499v7.874c1.017 1.017 3 1.125 3-.375v-7.03c0-1.5-1.5-1.97-3-.47z" />
@@ -36,6 +38,7 @@ YoutubeIcon.propTypes = {
   title: PropTypes.string,
   viewBox: PropTypes.string,
   width: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 YoutubeIcon.defaultProps = {

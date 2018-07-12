@@ -10,6 +10,7 @@ const ApplyIcon = ({
     title,
     viewBox,
     width,
+    focusable
   }) => (
   <svg
     aria-hidden={ariaHidden}
@@ -19,6 +20,7 @@ const ApplyIcon = ({
     preserveAspectRatio={preserveAspectRatio}
     viewBox={viewBox}
     width={width}
+    focusable={focusable}
   >
     <title id={iconId}>{title}</title>
       <g>
@@ -37,6 +39,7 @@ ApplyIcon.propTypes = {
   title: PropTypes.string,
   viewBox: PropTypes.string,
   width: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 ApplyIcon.defaultProps = {

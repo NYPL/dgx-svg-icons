@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const GridIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
+const GridIcon = ({ viewBox, height, width, title, className, ariaHidden, focusable }) => (
   <svg
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <rect x="8" y="8" width="7" height="7" />
@@ -24,6 +25,7 @@ GridIcon.propTypes = {
   width: PropTypes.string,
   viewBox: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 GridIcon.defaultProps = {

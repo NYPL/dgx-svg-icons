@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const DvdDiscIcon = ({ viewBox, height, width, title, className, fill, ariaHidden }) => (
+const DvdDiscIcon = ({ viewBox, height, width, title, className, fill, ariaHidden, focusable }) => (
   <svg
     width={width}
     height={height}
@@ -9,6 +9,7 @@ const DvdDiscIcon = ({ viewBox, height, width, title, className, fill, ariaHidde
     className={`${className} svgIcon`}
     aria-hidden={ariaHidden}
     fill={fill}
+    focusable={focusable}
   >
     <title>{title}</title>
     <circle cx="16" cy="16" r="3.75" fill="none" />
@@ -25,6 +26,7 @@ DvdDiscIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 DvdDiscIcon.defaultProps = {

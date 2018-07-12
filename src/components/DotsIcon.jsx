@@ -9,6 +9,7 @@ const DotsIcon = ({
   viewBox,
   fill,
   ariaHidden,
+  focusable,
 }) => (
   <svg
     width={width}
@@ -17,6 +18,7 @@ const DotsIcon = ({
     className={`${className} svgIcon`}
     fill={fill}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <circle cx="16" cy="16" r="1.9029" />
@@ -33,6 +35,7 @@ DotsIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 DotsIcon.defaultProps = {

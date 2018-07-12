@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const BookIcon = ({ viewBox, height, width, title, className, ariaHidden, preserveAspectRatio }) => (
+const BookIcon = ({ viewBox, height, width, title, className, ariaHidden, preserveAspectRatio, focusable }) => (
   <svg
     width={width}
     height={height}
@@ -9,6 +9,7 @@ const BookIcon = ({ viewBox, height, width, title, className, ariaHidden, preser
     className={`${className} svgIcon`}
     aria-hidden={ariaHidden}
     preserveAspectRatio={preserveAspectRatio}
+    focusable={focusable}
   >
     <title>{title}</title>
     <g>
@@ -26,6 +27,7 @@ BookIcon.propTypes = {
   viewBox: PropTypes.string,
   preserveAspectRatio: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 BookIcon.defaultProps = {
