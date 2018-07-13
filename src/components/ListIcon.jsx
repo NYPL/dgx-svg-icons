@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ListIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
+const ListIcon = ({ viewBox, height, width, title, className, ariaHidden, focusable }) => (
   <svg
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M23.4829,9.5H7.83a1.0143,1.0143,0,1,1,0-2.0285H23.4829A1.0143,1.0143,0,1,1,23.4829,9.5Z" />
@@ -24,6 +25,7 @@ ListIcon.propTypes = {
   width: PropTypes.string,
   viewBox: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 ListIcon.defaultProps = {

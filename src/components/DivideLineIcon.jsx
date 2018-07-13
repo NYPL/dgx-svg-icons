@@ -1,13 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const DivideLineIcon = ({ ariaHidden, className, height, length, stroke, strokeWidth, title, viewBox, width }) => (
+const DivideLineIcon = ({
+  ariaHidden,
+  className,
+  height,
+  length,
+  stroke,
+  strokeWidth,
+  title,
+  viewBox,
+  width,
+  focusable,
+}) => (
   <svg
     aria-hidden={ariaHidden}
     className={`${className} svgIcon`}
     height={height}
     viewBox={viewBox}
     width={width}
+    focusable={focusable}
   >
     <title>{title}</title>
     <line x1="0" y1="0" x2={length} y2="0" stroke={stroke} strokeWidth={strokeWidth} />
@@ -24,6 +36,7 @@ DivideLineIcon.propTypes = {
   title: PropTypes.string,
   viewBox: PropTypes.string,
   width: PropTypes.string,
+  focusable: PropTypes.bool,
 };
 
 DivideLineIcon.defaultProps = {

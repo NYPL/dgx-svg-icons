@@ -24,6 +24,7 @@ const CarouselCircleIcon = ({
   viewBox,
   fill,
   ariaHidden,
+  focusable,
 }) => (
   <svg
     className={`${className} svgIcon`}
@@ -31,6 +32,7 @@ const CarouselCircleIcon = ({
     height={height}
     viewBox={viewBox}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     {(type !== 'solid') ? renderSvgIcon(fill) : renderSolidSvgIcon(fill)}
@@ -46,6 +48,7 @@ CarouselCircleIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 CarouselCircleIcon.defaultProps = {

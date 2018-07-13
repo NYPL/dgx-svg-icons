@@ -1,13 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const AudioHeadphoneIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
+const AudioHeadphoneIcon = ({
+  viewBox,
+  height,
+  width,
+  title,
+  className,
+  ariaHidden,
+  focusable,
+}) => (
   <svg
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <g>
@@ -27,6 +36,7 @@ AudioHeadphoneIcon.propTypes = {
   width: PropTypes.string,
   viewBox: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 AudioHeadphoneIcon.defaultProps = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHidden }) => (
+const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHidden, focusable }) => (
   <svg
     width={width}
     height={height}
@@ -9,6 +9,7 @@ const CircleDashIcon = ({ viewBox, height, width, title, className, fill, ariaHi
     className={`${className} svgIcon`}
     fill={fill}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M16,3A13,13,0,1,1,3,16,13.0147,13.0147,0,0,1,16,3m0-3A16,16,0,1,0,32,16,16,16,0,0,0,16,0h0Z" />
@@ -24,6 +25,7 @@ CircleDashIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 CircleDashIcon.defaultProps = {

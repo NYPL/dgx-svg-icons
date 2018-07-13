@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.8
+> Updating the remaining svg icons to have a focusable property.
+
 ### v0.3.7
 > Adding focusable attribute to the icons that Header Component uses.
 

@@ -9,6 +9,7 @@ const RadioActiveIcon = ({
   viewBox,
   fill,
   ariaHidden,
+  focusable,
 }) => (
   <svg
     width={width}
@@ -17,6 +18,7 @@ const RadioActiveIcon = ({
     className={`${className} svgIcon`}
     fill={fill}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M7.96875,4.64844A3.32031,3.32031,0,1,1,4.64844,7.96875,3.32407,3.32407,0,0,1,7.96875,4.64844M7.96875,0A7.96875,7.96875,0,1,0,15.9375,7.96875,7.96875,7.96875,0,0,0,7.96875,0Z" />
@@ -31,6 +33,7 @@ RadioActiveIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 RadioActiveIcon.defaultProps = {
