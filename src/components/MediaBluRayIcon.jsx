@@ -1,13 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MediaBlueRayIcon = ({ viewBox, height, width, title, className, ariaHidden }) => (
+const MediaBlueRayIcon = ({ viewBox, height, width, title, className, ariaHidden, focusable }) => (
   <svg
     width={width}
     height={height}
     viewBox={viewBox}
     className={`${className} svgIcon`}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M12.25,16a3.738,3.738,0,0,0,1.09839,2.65161l5.30328-5.30328A3.75,3.75,0,0,0,12.25,16Z" fill="none" />
@@ -23,6 +24,7 @@ MediaBlueRayIcon.propTypes = {
   width: PropTypes.string,
   viewBox: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 MediaBlueRayIcon.defaultProps = {

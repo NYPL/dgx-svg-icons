@@ -10,6 +10,7 @@ const LionLogoWithTextInverse = ({
   ariaHidden,
   fill,
   style,
+  focusable
 }) => (
   <svg
     className={`${className} svgIcon`}
@@ -18,6 +19,7 @@ const LionLogoWithTextInverse = ({
     viewBox={viewBox}
     style={style}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <g className={`${className}-text`}>
@@ -72,6 +74,7 @@ LionLogoWithTextInverse.propTypes = {
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
   style: PropTypes.object,
+  focusable: PropTypes.bool,
 };
 
 LionLogoWithTextInverse.defaultProps = {

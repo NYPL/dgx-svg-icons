@@ -9,6 +9,7 @@ const SmallDotClosedIcon = ({
   viewBox,
   fill,
   ariaHidden,
+  focusable,
 }) => (
   <svg
     width={width}
@@ -17,6 +18,7 @@ const SmallDotClosedIcon = ({
     className={`${className} svgIcon`}
     fill={fill}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <circle cx="6" cy="6" r="6" fill={fill} />
@@ -31,6 +33,7 @@ SmallDotClosedIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 SmallDotClosedIcon.defaultProps = {

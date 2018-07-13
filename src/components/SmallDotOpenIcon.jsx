@@ -9,6 +9,7 @@ const SmallDotOpenIcon = ({
   viewBox,
   fill,
   ariaHidden,
+  focusable,
 }) => (
   <svg
     width={width}
@@ -17,6 +18,7 @@ const SmallDotOpenIcon = ({
     className={`${className} svgIcon`}
     fill={fill}
     aria-hidden={ariaHidden}
+    focusable={focusable}
   >
     <title>{title}</title>
     <path d="M6,2A4,4,0,1,1,2,6,4.00454,4.00454,0,0,1,6,2M6,0a6,6,0,1,0,6,6A6,6,0,0,0,6,0Z" fill={fill} />
@@ -31,6 +33,7 @@ SmallDotOpenIcon.propTypes = {
   viewBox: PropTypes.string,
   fill: PropTypes.string,
   ariaHidden: PropTypes.bool,
+  focusable: PropTypes.bool,
 };
 
 SmallDotOpenIcon.defaultProps = {
