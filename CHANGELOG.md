@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.9
+> Adding DownWedgeIcon
+
 ### v0.3.8
 > Updating the remaining svg icons to have a focusable property.
 
