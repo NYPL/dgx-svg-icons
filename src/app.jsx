@@ -32,6 +32,7 @@ import {
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
+  DownWedgeIcon,
   RightWedgeIcon,
   LeftWedgeIcon,
   RadioInactiveIcon,
@@ -177,7 +178,10 @@ render(<CheckSoloIcon />, document.getElementById('checkSoloIcon'));
 // Render Divide Line Icon
 render(<DivideLineIcon />, document.getElementById('divideLineIcon'));
 
-// Render Rigth Wedge Icon
+// Render Down Wedge Icon
+render(<DownWedgeIcon />, document.getElementById('downWedgeIcon'));
+
+// Render Right Wedge Icon
 render(<RightWedgeIcon />, document.getElementById('rightWedgeIcon'));
 
 // Render Left Wedge Icon

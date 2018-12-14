@@ -29,6 +29,7 @@ import LogoutIcon from './components/LogoutIcon.jsx';
 import SearchIcon from './components/SearchIcon.jsx';
 import CheckSoloIcon from './components/CheckSoloIcon.jsx';
 import DivideLineIcon from './components/DivideLineIcon.jsx';
+import DownWedgeIcon from './components/DownWedgeIcon.jsx';
 import RightWedgeIcon from './components/RightWedgeIcon.jsx';
 import LeftWedgeIcon from './components/LeftWedgeIcon.jsx';
 import RadioInactiveIcon from './components/RadioInactiveIcon.jsx';
@@ -81,6 +82,7 @@ export {
   SearchIcon,
   CheckSoloIcon,
   DivideLineIcon,
+  DownWedgeIcon,
   RightWedgeIcon,
   LeftWedgeIcon,
   RadioInactiveIcon,
