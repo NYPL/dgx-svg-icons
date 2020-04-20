@@ -1,8 +1,9 @@
-var path = require('path');
-var webpack = require('webpack');
-var cleanBuild = require('clean-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var rootPath = path.resolve(__dirname);
+const path = require('path');
+const webpack = require('webpack');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const rootPath = path.resolve(__dirname);
 
 if (process.env.NODE_ENV !== 'development') {
   module.exports = {
@@ -13,7 +14,7 @@ if (process.env.NODE_ENV !== 'development') {
       ]
     },
     resolve: {
-      extensions: ['', '.js', '.jsx']
+      extensions: ['*', '.js', '.jsx']
     },
     output: {
       path: path.join(__dirname, 'dist'),
@@ -30,12 +31,21 @@ if (process.env.NODE_ENV !== 'development') {
         amd: 'react'
       }
     },
+    optimization: {
+      minimizer: [
+        new UglifyJsPlugin({
+          uglifyOptions: {
+            warnings: false,
+          },
+        }),
+      ],
+    },
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
-          loader: 'babel',
+          loader: 'babel-loader',
           query: {
             presets: ['react', 'es2015']
           }
@@ -43,15 +53,7 @@ if (process.env.NODE_ENV !== 'development') {
       ]
     },
     plugins: [
-      new cleanBuild(['dist']),
-      new webpack.optimize.UglifyJsPlugin({
-        output: {
-          comments: false
-        },
-        compress: {
-          warnings: true
-        }
-      })
+      new CleanWebpackPlugin()
     ]
   };
 } else {
@@ -68,19 +70,19 @@ if (process.env.NODE_ENV !== 'development') {
       publicPath: '/'
     },
     plugins: [
-      new cleanBuild(['dist']),
-      new ExtractTextPlugin('styles.css'),
+      new CleanWebpackPlugin(),
+      new MiniCssExtractPlugin('styles.css'),
       new webpack.HotModuleReplacementPlugin()
     ],
     resolve: {
-      extensions: ['', '.js', '.jsx']
+      extensions: ['*', '.js', '.jsx']
     },
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
-          loader: 'babel',
+          loader: 'babel-loader',
           query: {
             presets: ['react', 'es2015']
           }
