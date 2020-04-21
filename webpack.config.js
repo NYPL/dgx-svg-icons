@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'development') {
       extensions: ['*', '.js', '.jsx']
     },
     output: {
-      path: path.join(__dirname, 'dist'),
+      path: path.join(rootPath, '/dist'),
       filename: 'index.min.js',
       libraryTarget: "umd",
       library: "dgxSvgIcons"
@@ -68,9 +68,9 @@ if (process.env.NODE_ENV !== 'development') {
       './src/app.jsx'
     ],
     output: {
-      path: path.join(__dirname, 'dist'),
+      path: path.resolve(rootPath, 'dist'),
       filename: 'index.min.js',
-      publicPath: '/'
+      publicPath: 'http://localhost:3000/'
     },
     plugins: [
       new CleanWebpackPlugin(),
@@ -95,8 +95,8 @@ if (process.env.NODE_ENV !== 'development') {
         },
         {
           test: /\.scss?$/,
-          loader: 'style!css!sass',
-          include: path.resolve(__dirname, 'src/styles')
+          loader: 'style-loader!css-loader!sass-loader',
+          include: path.resolve(rootPath, 'src/styles')
         }
       ]
     }
