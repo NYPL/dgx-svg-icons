@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserWebpackPlugin = require('terser-webpack-plugin');
 const rootPath = path.resolve(__dirname);
 
 if (process.env.NODE_ENV !== 'development') {
@@ -33,8 +33,8 @@ if (process.env.NODE_ENV !== 'development') {
     },
     optimization: {
       minimizer: [
-        new UglifyJsPlugin({
-          uglifyOptions: {
+        new TerserWebpackPlugin({
+          terserOptions: {
             warnings: false,
           },
         }),
@@ -46,8 +46,11 @@ if (process.env.NODE_ENV !== 'development') {
           test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
           loader: 'babel-loader',
-          query: {
-            presets: ['react', 'es2015']
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react'
+            ]
           }
         }
       ]
@@ -83,8 +86,11 @@ if (process.env.NODE_ENV !== 'development') {
           test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
           loader: 'babel-loader',
-          query: {
-            presets: ['react', 'es2015']
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react'
+            ]
           }
         },
         {
