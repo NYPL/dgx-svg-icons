@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.10
+> Update Youtube icon to match branding guidelines.
+
 ### v0.3.9
 > Adding DownWedgeIcon
 
