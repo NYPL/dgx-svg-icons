@@ -2,6 +2,12 @@
 
 ### v0.3.10
 > Update Youtube icon to match branding guidelines.
+> Security upgrade all vulnerable packages.
+> Adds packages:
+  > Webpack CLI
+  > Terser-webpack-plugin (replaces UglyJSPlugin)
+  > @babel/preset-env (replaces preset-es2015)
+  > MiniCssExtractPlugin (replaces ExtractTextWebpackPlugin)
 
 ### v0.3.9
 > Adding DownWedgeIcon
