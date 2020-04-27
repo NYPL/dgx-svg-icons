@@ -1,5 +1,5 @@
 ```
 <div>
-  <TumblrIcon width="50" height="50" />
+  <TumblrIcon iconId="tumblr1" width="50" height="50" />
 </div>
 ```

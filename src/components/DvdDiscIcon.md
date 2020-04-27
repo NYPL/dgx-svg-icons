@@ -1,5 +1,5 @@
 ```
 <div>
-  <DvdDiscIcon width="50" height="50" />
+  <DvdDiscIcon iconId="dvd1" width="50" height="50" />
 </div>
 ```

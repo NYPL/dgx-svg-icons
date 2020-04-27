@@ -1,5 +1,5 @@
 ```
 <div>
-  <AudioDiscIcon width="50" height="50" />
+  <AudioDiscIcon iconId="audiodisc1" width="50" height="50" />
 </div>
 ```

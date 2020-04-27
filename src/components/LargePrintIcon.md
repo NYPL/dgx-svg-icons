@@ -1,5 +1,5 @@
 ```
 <div>
-  <LargePrintIcon width="50" height="50" />
+  <LargePrintIcon iconId="lgprint1" width="50" height="50" />
 </div>
 ```

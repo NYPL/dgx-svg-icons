@@ -1,5 +1,5 @@
 ```
 <div>
-  <DivideLineIcon width="50" height="50" />
+  <DivideLineIcon iconId="divide1" width="50" height="50" />
 </div>
 ```

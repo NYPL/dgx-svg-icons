@@ -1,5 +1,5 @@
 ```
 <div>
-  <GenericWedgeIcon width="50" height="50" />
+  <GenericWedgeIcon iconId="wedge1" width="50" height="50" />
 </div>
 ```
