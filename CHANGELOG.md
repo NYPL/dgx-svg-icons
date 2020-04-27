@@ -8,6 +8,8 @@
   > Terser-webpack-plugin (replaces UglyJSPlugin)
   > @babel/preset-env (replaces preset-es2015)
   > MiniCssExtractPlugin (replaces ExtractTextWebpackPlugin)
+> Styleguidist can only be upgraded to v8.0.6 since v9+ requires
+  React 16.
 
 ### v0.3.9
 > Adding DownWedgeIcon
