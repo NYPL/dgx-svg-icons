@@ -1,5 +1,5 @@
 ```
 <div>
-  <FilterIcon width="50" height="50" />
+  <FilterIcon iconId="filter1" width="50" height="50" />
 </div>
 ```

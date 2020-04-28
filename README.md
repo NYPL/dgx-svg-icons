@@ -3,7 +3,7 @@
 [![GitHub version](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons.svg)](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons)
 
 SVG icons used at NYPL Digital as React Components.
-Version 0.3.9
+Version 0.3.10
 
 This project uses Styleguidist to generate a page with all the available icons and their properties here: [https://nypl.github.io/dgx-svg-icons/]( https://nypl.github.io/dgx-svg-icons/)
 
@@ -39,9 +39,15 @@ render(
 ```
 
 ### Contributing to this repo
+* Create a feature branch from `development`
 * From the command line rebuild the `/dist` directory with `npm run build`.
 * Optional but useful: rebuild the `/docs` styleguide with `npm run styleguide:build`.
-* Add & commit the new `/dist` and `/docs` folders and make the pull request.
+* Add & commit the new `/dist` and `/docs` folders and make the pull request
+  with `development` as the base.
+* Changes must be approved by a peer reviewer
+* Merge changes upon approval
+* Merge `development` into `master`
+* Create a tag for use by npmjs.com
 
 ### Props
 
@@ -114,7 +120,7 @@ then go to `localhost:4000` to see the styleguide. Doing this will serve the sam
 
 ### Reference
 
-Component Name  | Component Markup  
+Component Name  | Component Markup
 --- | ---
 ApplyIcon | `<ApplyIcon />`
 AudioDiscIcon | `<AudioDiscIcon />`

@@ -1,5 +1,5 @@
 ```
 <div>
-  <SmallDotClosedIcon width="50" height="50" />
+  <SmallDotClosedIcon iconId="smdot1" width="50" height="50" />
 </div>
 ```

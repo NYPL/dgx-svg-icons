@@ -1,5 +1,5 @@
 ```
 <div>
-  <BookIcon width="50" height="50" />
+  <BookIcon iconId="book1" width="50" height="50" />
 </div>
 ```

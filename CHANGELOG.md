@@ -1,5 +1,16 @@
 ## CHANGELOG
 
+### v0.3.10
+> Update Youtube icon to match branding guidelines.
+> Security upgrade all vulnerable packages.
+> Adds packages:
+  > Webpack CLI
+  > Terser-webpack-plugin (replaces UglyJSPlugin)
+  > @babel/preset-env (replaces preset-es2015)
+  > MiniCssExtractPlugin (replaces ExtractTextWebpackPlugin)
+> Styleguidist can only be upgraded to v8.0.6 since v9+ requires
+  React 16.
+
 ### v0.3.9
 > Adding DownWedgeIcon
 

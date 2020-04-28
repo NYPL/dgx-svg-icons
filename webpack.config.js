@@ -1,8 +1,9 @@
-var path = require('path');
-var webpack = require('webpack');
-var cleanBuild = require('clean-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var rootPath = path.resolve(__dirname);
+const path = require('path');
+const webpack = require('webpack');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TerserWebpackPlugin = require('terser-webpack-plugin');
+const rootPath = path.resolve(__dirname);
 
 if (process.env.NODE_ENV !== 'development') {
   module.exports = {
@@ -13,10 +14,10 @@ if (process.env.NODE_ENV !== 'development') {
       ]
     },
     resolve: {
-      extensions: ['', '.js', '.jsx']
+      extensions: ['*', '.js', '.jsx']
     },
     output: {
-      path: path.join(__dirname, 'dist'),
+      path: path.join(rootPath, '/dist'),
       filename: 'index.min.js',
       libraryTarget: "umd",
       library: "dgxSvgIcons"
@@ -30,28 +31,32 @@ if (process.env.NODE_ENV !== 'development') {
         amd: 'react'
       }
     },
+    optimization: {
+      minimizer: [
+        new TerserWebpackPlugin({
+          terserOptions: {
+            warnings: false,
+          },
+        }),
+      ],
+    },
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
-          loader: 'babel',
-          query: {
-            presets: ['react', 'es2015']
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react'
+            ]
           }
         }
       ]
     },
     plugins: [
-      new cleanBuild(['dist']),
-      new webpack.optimize.UglifyJsPlugin({
-        output: {
-          comments: false
-        },
-        compress: {
-          warnings: true
-        }
-      })
+      new CleanWebpackPlugin()
     ]
   };
 } else {
@@ -63,32 +68,35 @@ if (process.env.NODE_ENV !== 'development') {
       './src/app.jsx'
     ],
     output: {
-      path: path.join(__dirname, 'dist'),
+      path: path.resolve(rootPath, 'dist'),
       filename: 'index.min.js',
-      publicPath: '/'
+      publicPath: 'http://localhost:3000/'
     },
     plugins: [
-      new cleanBuild(['dist']),
-      new ExtractTextPlugin('styles.css'),
+      new CleanWebpackPlugin(),
+      new MiniCssExtractPlugin('styles.css'),
       new webpack.HotModuleReplacementPlugin()
     ],
     resolve: {
-      extensions: ['', '.js', '.jsx']
+      extensions: ['*', '.js', '.jsx']
     },
     module: {
-      loaders: [
+      rules: [
         {
           test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
-          loader: 'babel',
-          query: {
-            presets: ['react', 'es2015']
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react'
+            ]
           }
         },
         {
           test: /\.scss?$/,
-          loader: 'style!css!sass',
-          include: path.resolve(__dirname, 'src/styles')
+          loader: 'style-loader!css-loader!sass-loader',
+          include: path.resolve(rootPath, 'src/styles')
         }
       ]
     }

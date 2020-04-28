@@ -1,5 +1,5 @@
 ```
 <div>
-  <GridIcon width="50" height="50" />
+  <GridIcon iconId="grid1" width="50" height="50" />
 </div>
 ```
