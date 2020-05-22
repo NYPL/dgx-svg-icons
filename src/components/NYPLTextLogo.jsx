@@ -95,7 +95,7 @@ NYPLTextLogo.defaultProps = {
   height: '303.95',
   width: '368.31',
   viewBox: '0 0 368.31 303.95',
-  fill: '#FFF',
+  fill: '#000',
 };
 
 export default NYPLTextLogo;
