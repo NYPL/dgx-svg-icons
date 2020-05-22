@@ -1,6 +1,7 @@
 import LionLogoIcon from './components/LionLogoIcon';
 import LionLogoWithText from './components/LionLogoWithText';
 import LionLogoWithTextInverse from './components/LionLogoWithTextInverse';
+import NYPLTextLogo from './components/NYPLTextLogo';
 import CarouselCircleIcon from './components/CarouselCircleIcon';
 import BookIcon from './components/BookIcon';
 import DotsIcon from './components/DotsIcon';
@@ -54,6 +55,7 @@ export {
   LionLogoIcon,
   LionLogoWithText,
   LionLogoWithTextInverse,
+  NYPLTextLogo,
   CarouselCircleIcon,
   BookIcon,
   DotsIcon,

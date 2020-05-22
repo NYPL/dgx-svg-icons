@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.12
+> Added NYPL Text Logo.
+
 ### v0.3.11
 > Hotfix to correct an issue with bundled assets.
 

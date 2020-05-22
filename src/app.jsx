@@ -4,6 +4,7 @@ import {
   LionLogoIcon,
   LionLogoWithText,
   LionLogoWithTextInverse,
+  NYPLTextLogo,
   CarouselCircleIcon,
   BookIcon,
   DotsIcon,
@@ -66,6 +67,9 @@ render(<LionLogoWithText ariaHidden />, document.getElementById('LionLogoWithTex
 
 // Render Inverse NYPL Logo
 render(<LionLogoWithTextInverse ariaHidden />, document.getElementById('LionLogoWithTextInverse'));
+
+// Render NYPL Text Logo
+render(<NYPLTextLogo ariaHidden />, document.getElementById('NYPLTextLogo'));
 
 // Render Lion Logo Icon
 render(<LionLogoIcon />, document.getElementById('lionLogo'));
