@@ -153,7 +153,7 @@ LoginIconSolid | `<LoginIconSolid />`
 LogoutIcon | `<LogoutIcon />`
 MediaBluRayIcon | `<MediaBluRayIcon />`
 MenuIcon | `<MenuIcon />`
-NYPLTextIcon | `<NYPLTextIcon />`
+NYPLTextLogo | `<NYPLTextLogo />`
 RadioActiveIcon | `<RadioActiveIcon />`
 RadioInactiveIcon | `<RadioInactiveIcon />`
 ResetIcon | `<ResetIcon />`
