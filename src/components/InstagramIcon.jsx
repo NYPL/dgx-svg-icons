@@ -18,7 +18,6 @@ const InstagramIcon = ({
     className={`${className} svgIcon`}
     height={height}
     preserveAspectRatio={preserveAspectRatio}
-    title={title}
     viewBox={viewBox}
     width={width}
     focusable={focusable}
