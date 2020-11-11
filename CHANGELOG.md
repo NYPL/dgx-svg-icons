@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.13
+> Remove title attribute from svg element due to HTML validation.
+
 ### v0.3.12
 > Added NYPL Text Logo.
 
