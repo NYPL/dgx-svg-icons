@@ -33,6 +33,8 @@ object-assign
 
 /*! https://mths.be/regenerate v1.3.3 by @mathias | MIT license */
 
+/*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
 /**
  * Checks if an event is supported in the current execution environment.
  *

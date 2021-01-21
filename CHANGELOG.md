@@ -1,5 +1,8 @@
 ## CHANGELOG
 
+### v0.3.14
+> Updated npm packages to reduce security errors.
+
 ### v0.3.13
 > Remove title attribute from svg element due to HTML validation.
 
