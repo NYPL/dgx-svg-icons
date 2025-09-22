@@ -1,3 +1,5 @@
+This Repo is now Deprecated.  For Icons, please see the coresponding page in [Reservoir](https://nypl.github.io/nypl-design-system/reservoir/v4/?path=/docs/components-media-icons-icon--docs)
+
 # NYPL SVG Icons
 
 [![GitHub version](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons.svg)](https://badge.fury.io/gh/nypl%2Fdgx-svg-icons)
